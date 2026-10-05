@@ -1,0 +1,357 @@
+﻿date,feast_latin,feast_english,rank,kept_in_1954,common,commemorations_1954,ordo_page,notes,do_common,do_common_paschaltide,mapping_note
+01-01,Circumcisio Domini et Octava Nativitatis,"Circumcision of Our Lord, Octave of Christmas",dx 2 cl,Office,Proper,,31,,Proper,,
+01-02,Octava S. Stephani Protomartyris,Octave of St. Stephen,simplex,Office,Proper (from feast),,31,,Proper,,
+01-03,Octava S. Joannis Ap. et Evang.,Octave of St. John,simplex,Commemoration,Proper (from feast),,32,1954: Sunday 3 Jan was Holy Name; Octave of John only commemorated,Proper,,
+01-04,Octava Ss. Innocentium,Octave of the Holy Innocents,simplex,Office,Proper (from feast),,32,,Proper,,
+01-05,Vigilia Epiphaniae,Vigil of the Epiphany,sdx (privil. 2 cl),Office,Proper,S. Telesphori Pp.M.,33,,Proper,,
+01-05,S. Telesphori Papae et Martyris,"St. Telesphorus, Pope and Martyr",simplex,Commemoration,One Martyr (Supreme Pontiff),,33,,C2b-1,,"was C2b, now as Divinum Officium directs"
+01-06,Epiphania Domini,Epiphany of Our Lord,"dx 1 cl, privil. octave 2nd order",Office,Proper,,33,,Proper,,
+01-11,S. Hygini Papae et Martyris,"St. Hyginus, Pope and Martyr",simplex,Commemoration,One Martyr (Supreme Pontiff),,36,Within the octave of Epiphany,C2b,,
+01-13,Octava Epiphaniae,Octave Day of the Epiphany,dx maj,Office,Proper,,37,,Proper,,
+01-14,S. Hilarii Episcopi Confessoris Ecclesiae Doctoris,"St. Hilary, Bishop, Confessor and Doctor",dx,Office,Doctors,S. Felicis Presb. M. (9th lesson),37-38,,C4a,,
+01-14,S. Felicis Presbyteri Martyris,"St. Felix, Priest and Martyr",simplex,Commemoration,One Martyr (not Bishop),,38,,C2a,,
+01-15,S. Pauli Primi Eremitae Confessoris,"St. Paul the First Hermit, Confessor",dx,Office,Confessor not Bishop (proper parts),S. Mauri Abb. (9th lesson),38,,C5,,
+01-15,S. Mauri Abbatis,"St. Maurus, Abbot",simplex,Commemoration,Abbots,,38,,C5b,,
+01-16,S. Marcelli I Papae et Martyris,"St. Marcellus I, Pope and Martyr",sdx,Office,One Martyr (Supreme Pontiff),,38,Ordo: LL. 3 N. de Comm. Summ. Pontif.,C2b,,
+01-17,S. Antonii Abbatis,"St. Antony, Abbot",dx,Commemoration,Abbots,,39,1954: impeded by 2nd Sunday after Epiphany; rank 1953 Ordo p.38: dx (17 Jan 1953),C5b,,
+01-18,Cathedra S. Petri Romae,Chair of St. Peter at Rome,dx maj,Office,Proper + Apostles,S. Pauli Ap.; S. Priscae VM. (9th lesson),39,,C4,,"was C1, now as Divinum Officium directs"
+01-18,S. Priscae Virginis et Martyris,"St. Prisca, Virgin and Martyr",simplex,Commemoration,Virgin Martyr,,39,,C6-1,,"was C6, now as Divinum Officium directs"
+01-19,"Ss. Marii, Marthae, Audifacis et Abachum Martyrum","Sts. Marius, Martha, Audifax and Abachum, Martyrs",simplex,Office,Several Martyrs,S. Canuti Regis M.,39,,C3a,,
+01-19,S. Canuti Regis Martyris,"St. Canute, King and Martyr",com.,Commemoration,One Martyr (not Bishop),,39,,C2a-1,,"was C2a, now as Divinum Officium directs"
+01-20,Ss. Fabiani Papae et Sebastiani Martyrum,"Sts. Fabian and Sebastian, Martyrs",dx,Office,Several Martyrs,,39,,C3,,"was C3a, now as Divinum Officium directs"
+01-21,S. Agnetis Virginis et Martyris,"St. Agnes, Virgin and Martyr",dx,Office,Virgins (proper parts),,40,,C6-1,,"was C6, now as Divinum Officium directs"
+01-22,Ss. Vincentii et Anastasii Martyrum,"Sts. Vincent and Anastasius, Martyrs",sdx,Office,Several Martyrs,,40,,C3,,"was C3a, now as Divinum Officium directs"
+01-23,S. Raymundi de Pennafort Confessoris,"St. Raymond of Peñafort, Confessor",sdx,Office,Confessor not Bishop,S. Emerentianae VM. (9th lesson),40,,C5,,
+01-23,S. Emerentianae Virginis et Martyris,"St. Emerentiana, Virgin and Martyr",simplex,Commemoration,Virgin Martyr,,40,,C6-1,,"was C6, now as Divinum Officium directs"
+01-24,S. Timothei Episcopi et Martyris,"St. Timothy, Bishop and Martyr",dx,Commemoration,One Martyr (Bishop),,40-41,1954: impeded by 3rd Sunday after Epiphany; rank 1953 Ordo p.40: dx (24 Jan 1953),C2,,
+01-25,Conversio S. Pauli Apostoli,Conversion of St. Paul,dx maj,Office,Proper + Apostles,S. Petri Ap.,41,,C1,,
+01-26,S. Polycarpi Episcopi et Martyris,"St. Polycarp, Bishop and Martyr",dx,Office,One Martyr (Bishop),,41,,C2-1,,"was C2, now as Divinum Officium directs"
+01-27,S. Joannis Chrysostomi Episcopi Confessoris Ecclesiae Doctoris,"St. John Chrysostom, Bishop, Confessor and Doctor",dx,Office,Doctors,,41,,C4a,,
+01-28,S. Petri Nolasci Confessoris,"St. Peter Nolasco, Confessor",dx,Office,Confessor not Bishop,S. Agnetis secundo (9th lesson),41,,C5-1,,"was C5, now as Divinum Officium directs"
+01-28,S. Agnetis secundo,St. Agnes (second feast),simplex,Commemoration,Proper / Virgins,,41,,C6-1,,"was C6, now as Divinum Officium directs"
+01-29,S. Francisci Salesii Episcopi Confessoris Ecclesiae Doctoris,"St. Francis de Sales, Bishop, Confessor and Doctor",dx,Office,Doctors,,42,,C4a,,
+01-30,S. Martinae Virginis et Martyris,"St. Martina, Virgin and Martyr",sdx,Office,Virgin Martyr (proper hymns),,42,,C6,,
+01-31,S. Joannis Bosco Confessoris,"St. John Bosco, Confessor",dx,Commemoration,Confessor not Bishop,,42,1954: impeded by 4th Sunday after Epiphany; rank confirmed dx in 1952 Ordo p.42 (Thu 31 Jan 1952),C5,,
+02-01,S. Ignatii Episcopi et Martyris,"St. Ignatius, Bishop and Martyr",dx,Office,"One Martyr (Bishop), proper parts",,43,,C2,,
+02-02,In Purificatione B. Mariae Virginis,Purification of the Blessed Virgin Mary,dx 2 cl,Office,Proper,,44,Blessing of candles and procession,Proper + C11,,
+02-03,S. Blasii Episcopi et Martyris,"St. Blaise, Bishop and Martyr",simplex,Office,One Martyr (Bishop),,44,,C2-1,,"was C2, now as Divinum Officium directs"
+02-04,S. Andreae Corsini Episcopi Confessoris,"St. Andrew Corsini, Bishop and Confessor",dx,Office,Confessor Bishop,,44,,C4,,
+02-05,S. Agathae Virginis et Martyris,"St. Agatha, Virgin and Martyr",dx,Office,Virgins (proper parts),,45,,C6,,
+02-06,S. Titi Episcopi Confessoris,"St. Titus, Bishop and Confessor",dx,Office,Confessor Bishop,S. Dorotheae VM. (9th lesson),45,,C4,,
+02-06,S. Dorotheae Virginis et Martyris,"St. Dorothy, Virgin and Martyr",simplex,Commemoration,Virgin Martyr,,45,,C6-1,,"was C6, now as Divinum Officium directs"
+02-07,S. Romualdi Abbatis,"St. Romuald, Abbot",dx,Commemoration,Abbots,,45,1954: impeded by 5th Sunday after Epiphany; rank 1953 Ordo p.47: dx (7 Feb 1953),C5b,,
+02-08,S. Joannis de Matha Confessoris,"St. John of Matha, Confessor",dx,Office,Confessor not Bishop,,45,,C5,,
+02-09,S. Cyrilli Alexandrini Episcopi Confessoris Ecclesiae Doctoris,"St. Cyril of Alexandria, Bishop, Confessor and Doctor",dx,Office,Doctors,S. Apolloniae VM. (9th lesson),46,,C4a,,
+02-09,S. Apolloniae Virginis et Martyris,"St. Apollonia, Virgin and Martyr",simplex,Commemoration,Virgin Martyr,,46,,C6,,
+02-10,S. Scholasticae Virginis,"St. Scholastica, Virgin",dx,Office,Virgins,,46,,C6a,,
+02-11,In Apparitione B. Mariae Virginis Immaculatae,Apparition of the Immaculate Virgin Mary (Lourdes),dx maj,Office,Proper,,46,,Proper + C11,,
+02-12,Ss. Septem Fundatorum Ordinis Servorum B.M.V. Confessorum,"Seven Holy Founders of the Servites, Confessors",dx,Office,Confessors (proper hymns),,47,,C5c,,
+02-14,S. Valentini Presbyteri et Martyris,"St. Valentine, Priest and Martyr",simplex,Commemoration,One Martyr (not Bishop),,47-49,1954: Septuagesima Sunday,C2a,,
+02-15,Ss. Faustini et Jovitae Martyrum,"Sts. Faustinus and Jovita, Martyrs",simplex,Office,Several Martyrs,,49,,C3a-1,,"was C3a, now as Divinum Officium directs"
+02-18,S. Simeonis Episcopi et Martyris,"St. Simeon, Bishop and Martyr",simplex,Office,One Martyr (Bishop),,50,,C2,,
+02-22,Cathedra S. Petri Antiochiae,Chair of St. Peter at Antioch,dx maj,Office,Proper + Apostles,S. Pauli Ap.,51-52,,C4,,"was C1, now as Divinum Officium directs"
+02-23,S. Petri Damiani Episcopi Confessoris Ecclesiae Doctoris,"St. Peter Damian, Bishop, Confessor and Doctor",dx,Office,Doctors,Vigil of St. Matthias (9th lesson),52,,C4a,,
+02-23,Vigilia S. Matthiae Apostoli,Vigil of St. Matthias,simplex vigil,Commemoration,Proper,,52,,C1v,,
+02-24,S. Matthiae Apostoli,"St. Matthias, Apostle",dx 2 cl,Office,Apostles + proper,,52,"In leap years: 25 Feb, vigil 24 Feb",C1,,
+02-27,S. Gabrielis a Virgine Perdolente Confessoris,"St. Gabriel of Our Lady of Sorrows, Confessor",dx,Office,Confessor not Bishop,,53,,C5,,
+03-04,S. Casimiri Confessoris,"St. Casimir, Confessor",sdx,Office,Confessor not Bishop,,58,1954 Ordo p.58,C5,,
+03-04,S. Lucii I Papae et Martyris,"St. Lucius I, Pope and Martyr",simplex,Commemoration,One Martyr (Supreme Pontiff),,58,1954 Ordo p.58,C2b-1,,"was C2b, now as Divinum Officium directs"
+03-06,Ss. Perpetuae et Felicitatis Martyrum,"Sts. Perpetua and Felicity, Martyrs",dx,Office,Several Martyrs (proper parts),,60,1954 Ordo p.60 (not pinned to date — check),C7b,,
+03-07,S. Thomae de Aquino Confessoris Ecclesiae Doctoris,"St. Thomas Aquinas, Confessor and Doctor",dx,Office,Doctors,,60,1954 Ordo p.60 (not pinned to date — check),C5a,,
+03-08,S. Joannis de Deo Confessoris,"St. John of God, Confessor",dx,Office,Confessor not Bishop,,61,1954 Ordo p.61,C5,,
+03-09,S. Franciscae Romanae Viduae,"St. Frances of Rome, Widow",dx,Office,Holy Women (not Virgin),,61,1954 Ordo p.61,C7a,,
+03-10,Ss. Quadraginta Martyrum,Forty Holy Martyrs,sdx,Office,Several Martyrs,,62,"1954 Ordo p.62 (scan checked; Ember Wednesday, feria commemorated)",C3,,"was C3a, now as Divinum Officium directs"
+03-12,S. Gregorii I Papae Confessoris Ecclesiae Doctoris,"St. Gregory the Great, Pope, Confessor and Doctor",dx,Office,Doctors (Supreme Pontiff),,63,1954 Ordo p.63,C4a,,"was C4b-2, now as Divinum Officium directs"
+03-17,S. Patricii Episcopi Confessoris,"St. Patrick, Bishop and Confessor",dx,Office,Confessor Bishop,,65,1954 Ordo p.65,C4,,
+03-18,S. Cyrilli Hierosolymitani Episcopi Confessoris Ecclesiae Doctoris,"St. Cyril of Jerusalem, Bishop, Confessor and Doctor",dx,Office,Doctors,,65,1954 Ordo p.65,C4a,,
+03-19,S. Joseph Sponsi B.M.V. Confessoris,"St. Joseph, Spouse of the B.V.M.",dx 1 cl,Office,Proper,,66,1954 Ordo p.66 (not pinned to date — check),Proper,,
+03-21,S. Benedicti Abbatis,"St. Benedict, Abbot",dx maj,Office,Abbots (proper parts),,66,1954 Ordo p.66,C5b,,
+03-24,S. Gabrielis Archangeli,St. Gabriel the Archangel,dx maj,Office,Proper,,67,1954 Ordo p.67,Proper,,
+03-25,In Annuntiatione B.M.V.,Annunciation of the B.V.M.,dx 1 cl,Office,Proper,,68,1954 Ordo p.68 (not pinned to date — check),Proper + C11,,
+03-27,S. Joannis Damasceni Confessoris Ecclesiae Doctoris,"St. John Damascene, Confessor and Doctor",dx,Office,Doctors,,69,1954 Ordo p.69,C5a,,
+03-28,S. Joannis a Capistrano Confessoris,"St. John Capistran, Confessor",sdx,Office,Confessor not Bishop,,69,1954 Ordo p.69,C5,,
+04-02,S. Francisci de Paula Confessoris,"St. Francis of Paola, Confessor",dx,Office,Confessor not Bishop,,71,1954 Ordo p.71 (not pinned to date — check),C5-1,,"was C5, now as Divinum Officium directs"
+04-04,S. Isidori Episcopi Confessoris Ecclesiae Doctoris,"St. Isidore, Bishop, Confessor and Doctor",dx,Office,Doctors,,73,1954 Ordo p.73,C4a,,
+04-05,S. Vincentii Ferrerii Confessoris,"St. Vincent Ferrer, Confessor",dx,Office,Confessor not Bishop,,73,1954 Ordo p.73,C5,,
+04-11,S. Leonis I Papae Confessoris Ecclesiae Doctoris,"St. Leo the Great, Pope, Confessor and Doctor",dx,Office,Doctors (Supreme Pontiff),,75,1954 Ordo p.75,C4b-2,,
+04-13,S. Hermenegildi Martyris,"St. Hermenegild, Martyr",sdx,Office,One Martyr (not Bishop),,77,1954 Ordo p.77,C2a,C2ap,
+04-14,S. Justini Martyris,"St. Justin, Martyr",dx,Office,One Martyr (proper parts),,78,1954 Ordo p.78,C2a,C2ap,
+04-14,"Ss. Tiburtii, Valeriani et Maximi Martyrum","Sts. Tiburtius, Valerian and Maximus, Martyrs",simplex,Commemoration,Several Martyrs,,78,1954 Ordo p.78,C3a,C3ap,
+04-17,S. Aniceti Papae et Martyris,"St. Anicetus, Pope and Martyr",simplex,Office,One Martyr (Supreme Pontiff),,82,1954 Ordo p.82 (not pinned to date — check),C2b-1,C2bp,"was C2b, now as Divinum Officium directs"
+04-21,S. Anselmi Episcopi Confessoris Ecclesiae Doctoris,"St. Anselm, Bishop, Confessor and Doctor",dx,Office,Doctors,,86,1954 Ordo p.86,C4a,,
+04-22,Ss. Soteris et Caii Summorum Pontificum et Martyrum,"Sts. Soter and Caius, Popes and Martyrs",sdx,Office,Several Martyrs (Supreme Pontiffs),,87,1954 Ordo p.87,C3b,C3bp,
+04-23,S. Georgii Martyris,"St. George, Martyr",sdx,Office,One Martyr (Paschaltide),,87,1954 Ordo p.87,C2a,C2ap,
+04-24,S. Fidelis a Sigmaringa Martyris,"St. Fidelis of Sigmaringen, Martyr",dx,Office,One Martyr (Paschaltide),,88,1954 Ordo p.88,C2a,C2ap,
+04-25,S. Marci Evangelistae,"St. Mark, Evangelist",dx 2 cl,Office,Apostles (Paschaltide) + proper,,89,1954 Ordo p.89,C1a,C1ap,
+04-26,Ss. Cleti et Marcellini Summorum Pontificum et Martyrum,"Sts. Cletus and Marcellinus, Popes and Martyrs",sdx,Office,Several Martyrs (Supreme Pontiffs),,91,1954 Ordo p.91,C3b,C3bp,
+04-27,S. Petri Canisii Confessoris Ecclesiae Doctoris,"St. Peter Canisius, Confessor and Doctor",dx,Office,Doctors,,92,1954 Ordo p.92,C5a,,
+04-28,S. Pauli a Cruce Confessoris,"St. Paul of the Cross, Confessor",dx,Office,Confessor not Bishop,,92,1954 Ordo p.92,C5,,
+04-28,S. Vitalis Martyris,"St. Vitalis, Martyr",simplex,Commemoration,One Martyr (Paschaltide),,92,1954 Ordo p.92,C2a,C2ap,
+04-29,S. Petri Martyris,St. Peter Martyr,dx,Office,One Martyr (Paschaltide),,92,1954 Ordo p.92,C2a-1,C2ap,"was C2a, now as Divinum Officium directs"
+04-30,S. Catharinae Senensis Virginis,"St. Catherine of Siena, Virgin",dx,Office,Virgins,,93,1954 Ordo p.93 (not pinned to date — check),C6a,,
+05-01,Ss. Philippi et Jacobi Apostolorum,"Sts. Philip and James, Apostles",dx 2 cl,Office,Apostles (Paschaltide) + proper,,94,1954 Ordo p.94 (not pinned to date — check),C1,C1p,
+05-02,S. Athanasii Episcopi Confessoris Ecclesiae Doctoris,"St. Athanasius, Bishop, Confessor and Doctor",dx,Office,Doctors,,94,1954 Ordo p.94,C4a,,
+05-03,In Inventione S. Crucis,Finding of the Holy Cross,dx 2 cl,Office,Proper,,95,1954 Ordo p.95,Proper,,
+05-03,"Ss. Alexandri, Eventii, Theoduli et Juvenalis","Sts. Alexander, Eventius, Theodulus and Juvenal",simplex,Commemoration,Several Martyrs (Paschaltide),,95,1954 Ordo p.95,C3,C3ap,"was C3a, now as Divinum Officium directs"
+05-04,S. Monicae Viduae,"St. Monica, Widow",dx,Office,Holy Women (not Virgin),,95,1954 Ordo p.95 (not pinned to date — check),C7a,,
+05-05,S. Pii V Papae Confessoris,"St. Pius V, Pope and Confessor",dx,Office,Confessor Bishop (Supreme Pontiff),,95,1954 Ordo p.95,C4b,,
+05-06,S. Joannis ante Portam Latinam,St. John before the Latin Gate,dx maj,Office,Apostles (Paschaltide) + proper,,96,1954 Ordo p.96,C1,C1p,
+05-07,S. Stanislai Episcopi et Martyris,"St. Stanislaus, Bishop and Martyr",dx,Office,One Martyr (Paschaltide),,97,1954 Ordo p.97 (not pinned to date — check),C2-1,C2p,"was C2, now as Divinum Officium directs"
+05-08,In Apparitione S. Michaelis Archangeli,Apparition of St. Michael the Archangel,dx maj,Office,Proper,,97,1954 Ordo p.97,Proper,,
+05-09,S. Gregorii Nazianzeni Episcopi Confessoris Ecclesiae Doctoris,"St. Gregory Nazianzen, Bishop, Confessor and Doctor",dx,Office,Doctors,,97,1954 Ordo p.97,C4a,,
+05-10,S. Antonini Episcopi Confessoris,"St. Antoninus, Bishop and Confessor",dx,Office,Confessor Bishop,,98,1954 Ordo p.98,C4,,
+05-10,Ss. Gordiani et Epimachi Martyrum,"Sts. Gordian and Epimachus, Martyrs",simplex,Commemoration,Several Martyrs (Paschaltide),,98,1954 Ordo p.98,C3a,C3ap,
+05-12,"Ss. Nerei, Achillei, Domitillae et Pancratii Martyrum","Sts. Nereus, Achilleus, Domitilla and Pancras, Martyrs",sdx,Office,Several Martyrs (Paschaltide),,98,1954 Ordo p.98,C3a-1,C3ap,"was C3a, now as Divinum Officium directs"
+05-13,S. Roberti Bellarmino Episcopi Confessoris Ecclesiae Doctoris,"St. Robert Bellarmine, Bishop, Confessor and Doctor",dx,Office,Doctors,,99,1954 Ordo p.99,C4a,,
+05-14,S. Bonifatii Martyris,"St. Boniface of Tarsus, Martyr",simplex,Office,One Martyr (Paschaltide),,99,1954 Ordo p.99,C2a,C2ap,
+05-15,S. Joannis Baptistae de la Salle Confessoris,"St. John Baptist de la Salle, Confessor",dx,Office,Confessor not Bishop,,99,1954 Ordo p.99,C5,,
+05-16,S. Ubaldi Episcopi Confessoris,"St. Ubald, Bishop and Confessor",sdx,Office,Confessor Bishop,,100,1954 Ordo p.100,C4,,
+05-17,S. Paschalis Baylon Confessoris,"St. Paschal Baylon, Confessor",dx,Office,Confessor not Bishop,,100,1954 Ordo p.100,C5,,
+05-18,S. Venantii Martyris,"St. Venantius, Martyr",dx,Office,One Martyr (proper parts),,100,1954 Ordo p.100,C2a,C2ap,
+05-19,S. Petri Caelestini Papae Confessoris,"St. Peter Celestine, Pope and Confessor",dx,Office,Confessor Bishop (Supreme Pontiff),,100,1954 Ordo p.100,C4b,,
+05-19,S. Pudentianae Virginis,"St. Pudentiana, Virgin",simplex,Commemoration,Virgins,,100,1954 Ordo p.100,C6a,,
+05-20,S. Bernardini Senensis Confessoris,"St. Bernardine of Siena, Confessor",sdx,Office,Confessor not Bishop,,101,1954 Ordo p.101,C5,,
+05-25,S. Gregorii VII Papae Confessoris,"St. Gregory VII, Pope and Confessor",dx,Office,Confessor Bishop (Supreme Pontiff),,103,1954 Ordo p.103 (scan checked),C4b,,
+05-25,S. Urbani I Papae et Martyris,"St. Urban I, Pope and Martyr",simplex,Commemoration,One Martyr (Supreme Pontiff),,103,1954 Ordo p.103 (scan checked),C2b,C2bp,
+05-26,S. Philippi Nerii Confessoris,"St. Philip Neri, Confessor",dx,Office,Confessor not Bishop,,104,1954 Ordo p.104 (not pinned to date — check),C5,,
+05-26,S. Eleutherii Papae et Martyris,"St. Eleutherius, Pope and Martyr",simplex,Commemoration,One Martyr (Supreme Pontiff),,104,1954 Ordo p.104 (not pinned to date — check),C2b,C2bp,
+05-27,S. Bedae Venerabilis Confessoris Ecclesiae Doctoris,"St. Bede the Venerable, Confessor and Doctor",dx,Office,Doctors,,106:,1954 Ordo p.106: impeded (Ascension Day); nothing of him this year,C5a,,
+05-27,S. Joannis I Papae et Martyris,"St. John I, Pope and Martyr",simplex,Commemoration,One Martyr (Supreme Pontiff),,106:,1954 Ordo p.106: impeded (Ascension Day),C2b-1,C2bp,"was C2b, now as Divinum Officium directs"
+05-28,S. Augustini Episcopi Confessoris,"St. Augustine of Canterbury, Bishop and Confessor",dx,Office,Confessor Bishop,,107,1954 Ordo p.107,C4-1,,"was C4, now as Divinum Officium directs"
+05-29,S. Mariae Magdalenae de Pazzis Virginis,"St. Mary Magdalene de' Pazzi, Virgin",sdx,Office,Virgins,,107,1954 Ordo p.107,C6a,,
+05-30,S. Felicis I Papae et Martyris,"St. Felix I, Pope and Martyr",simplex,Office,One Martyr (Supreme Pontiff),,108,1954 Ordo p.108,C2b,C2bp,
+05-31,S. Angelae Mericiae Virginis,"St. Angela Merici, Virgin",dx,Office,Virgins,,108,1954 Ordo p.108,C6a-1,,"was C6a, now as Divinum Officium directs"
+05-31,S. Petronillae Virginis,"St. Petronilla, Virgin",com.,Commemoration,Virgins,,108,1954 Ordo p.108,C6a-1,,"was C6a, now as Divinum Officium directs"
+06-02,"Ss. Marcellini, Petri atque Erasmi Martyrum","Sts. Marcellinus, Peter and Erasmus, Martyrs",simplex,Office,Several Martyrs,,109,1954 Ordo p.109,C3,C3ap,"was C3a, now as Divinum Officium directs"
+06-04,S. Francisci Caracciolo Confessoris,"St. Francis Caracciolo, Confessor",dx,Office,Confessor not Bishop,,110,1954 Ordo p.110,C5,,
+06-05,S. Bonifatii Episcopi et Martyris,"St. Boniface, Bishop and Martyr",dx,Office,One Martyr (Bishop),,110,1954 Ordo p.110,C2,C2p,
+06-06,S. Norberti Episcopi Confessoris,"St. Norbert, Bishop and Confessor",dx,Office,Confessor Bishop,,111,1954 Ordo p.111,C4,,
+06-09,Ss. Primi et Feliciani Martyrum,"Sts. Primus and Felician, Martyrs",simplex,Office,Several Martyrs,,112,1954 Ordo p.112,C3a,C3ap,
+06-10,S. Margaritae Reginae Viduae,"St. Margaret of Scotland, Queen and Widow",sdx,Office,Holy Women (not Virgin),,112,1954 Ordo p.112,C7a,,
+06-11,S. Barnabae Apostoli,"St. Barnabas, Apostle",dx maj,Office,Apostles + proper,,113,1954 Ordo p.113,C1,C1p,
+06-12,S. Joannis a S. Facundo Confessoris,"St. John of San Facundo, Confessor",dx,Office,Confessor not Bishop,,113,1954 Ordo p.113,C5,,
+06-12,"Ss. Basilidis, Cyrini, Naboris et Nazarii Martyrum","Sts. Basilides, Cyrinus, Nabor and Nazarius, Martyrs",simplex,Commemoration,Several Martyrs,,113,1954 Ordo p.113,C3,C3ap,"was C3a, now as Divinum Officium directs"
+06-13,S. Antonii de Padua Confessoris Ecclesiae Doctoris,"St. Antony of Padua, Confessor and Doctor",dx,Office,Doctors,,114:,1954 Ordo p.114: impeded this year,C5,,"was C5a, now as Divinum Officium directs"
+06-14,S. Basilii Magni Episcopi Confessoris Ecclesiae Doctoris,"St. Basil the Great, Bishop, Confessor and Doctor",dx,Office,Doctors,,115,1954 Ordo p.115,C4a,,
+06-15,"Ss. Viti, Modesti atque Crescentiae Martyrum","Sts. Vitus, Modestus and Crescentia, Martyrs",simplex,Office,Several Martyrs,,115,1954 Ordo p.115,C3,C3ap,"was C3a, now as Divinum Officium directs"
+06-18,S. Ephraem Syri Diaconi Confessoris Ecclesiae Doctoris,"St. Ephrem the Syrian, Deacon, Confessor and Doctor",dx,Office,Doctors,,117,1954 Ordo p.117,C5a,,
+06-18,Ss. Marci et Marcelliani Martyrum,"Sts. Mark and Marcellian, Martyrs",simplex,Commemoration,Several Martyrs,,117,1954 Ordo p.117,C3a-1,C3ap,"was C3a, now as Divinum Officium directs"
+06-19,S. Julianae de Falconeriis Virginis,"St. Juliana Falconieri, Virgin",dx,Office,Virgins,,117,1954 Ordo p.117,C6a,,
+06-19,Ss. Gervasii et Protasii Martyrum,"Sts. Gervase and Protase, Martyrs",simplex,Commemoration,Several Martyrs,,117,1954 Ordo p.117,C3a-1,C3ap,"was C3a, now as Divinum Officium directs"
+06-20,S. Silverii Papae et Martyris,"St. Silverius, Pope and Martyr",simplex,Office,One Martyr (Supreme Pontiff),,118,1954 Ordo p.118,C2b,,
+06-21,S. Aloisii Gonzagae Confessoris,"St. Aloysius Gonzaga, Confessor",dx,Office,Confessor not Bishop,,118,1954 Ordo p.118,C5,,
+06-22,S. Paulini Episcopi Confessoris,"St. Paulinus, Bishop and Confessor",dx,Office,Confessor Bishop,,118,1954 Ordo p.118,C4,,
+06-23,Vigilia S. Joannis Baptistae,Vigil of St. John the Baptist,vigil,Office,Proper,,110,1954 Ordo p.110 (not pinned to date — check),Proper,,
+06-24,In Nativitate S. Joannis Baptistae,Nativity of St. John the Baptist,dx 1 cl,Office,Proper,,120,1954 Ordo p.120,Proper,,
+06-25,S. Gulielmi Abbatis,"St. William, Abbot",dx,Office,Abbots,,120,1954 Ordo p.120,C5b,,
+06-26,Ss. Joannis et Pauli Martyrum,"Sts. John and Paul, Martyrs",dx,Office,Several Martyrs (proper parts),,121,1954 Ordo p.121,C3,,"was C3a, now as Divinum Officium directs"
+06-28,S. Irenaei Episcopi et Martyris,"St. Irenaeus, Bishop and Martyr",dx,Office,One Martyr (Bishop),,122,1954 Ordo p.122,C2,,
+06-28,Vigilia Ss. Petri et Pauli,Vigil of Sts. Peter and Paul,vigil,Office,Proper,,122,1954 Ordo p.122,Proper,,
+06-29,Ss. Petri et Pauli Apostolorum,"Sts. Peter and Paul, Apostles",dx 1 cl,Office,Proper,,122,1954 Ordo p.122,Proper + C1,,
+06-30,In Commemoratione S. Pauli Apostoli,Commemoration of St. Paul,dx maj,Office,Proper,,123,1954 Ordo p.123,Proper + C1,,
+07-01,Pretiosissimi Sanguinis D.N.J.C.,Most Precious Blood of Our Lord,dx 1 cl,Office,Proper,,124,1954 Ordo p.124,Proper,,
+07-02,In Visitatione B.M.V.,Visitation of the B.V.M.,dx 2 cl,Office,Proper,,124,1954 Ordo p.124,Proper + C11,,
+07-02,Ss. Processi et Martiniani Martyrum,"Sts. Processus and Martinian, Martyrs",simplex,Commemoration,Several Martyrs,,125,1954 Ordo p.125,C3a,,
+07-03,S. Leonis II Papae Confessoris,"St. Leo II, Pope and Confessor",dx,Office,Confessor Bishop (Supreme Pontiff),,125,1954 Ordo p.125: printed dx (scan checked),C4b,,
+07-05,S. Antonii Mariae Zaccaria Confessoris,"St. Antony Mary Zaccaria, Confessor",dx,Office,Confessor not Bishop,,126,1954 Ordo p.126,C5,,
+07-07,Ss. Cyrilli et Methodii Pontificum et Confessorum,"Sts. Cyril and Methodius, Bishops and Confessors",dx,Office,Confessor Bishops (proper parts),,126,1954 Ordo p.126,C4-1,,"was C4c, now as Divinum Officium directs"
+07-08,S. Elisabeth Reginae Viduae,"St. Elizabeth of Portugal, Queen and Widow",sdx,Office,Holy Women (not Virgin),,127,1954 Ordo p.127,C7a,,
+07-10,"Ss. Septem Fratrum Martyrum, ac Rufinae et Secundae","Seven Holy Brothers, and Sts. Rufina and Secunda",sdx,Office,Several Martyrs,,127,1954 Ordo p.127,C3,,"was C3a, now as Divinum Officium directs"
+07-11,S. Pii I Papae et Martyris,"St. Pius I, Pope and Martyr",simplex,Office,One Martyr (Supreme Pontiff),,128,1954 Ordo p.128,C2b,,
+07-12,S. Joannis Gualberti Abbatis,"St. John Gualbert, Abbot",dx,Office,Abbots,,128,1954 Ordo p.128,C5b,,
+07-12,Ss. Naboris et Felicis Martyrum,"Sts. Nabor and Felix, Martyrs",simplex,Commemoration,Several Martyrs,,128,1954 Ordo p.128,C3a-1,,"was C3a, now as Divinum Officium directs"
+07-13,S. Anacleti Papae et Martyris,"St. Anacletus, Pope and Martyr",sdx,Office,One Martyr (Supreme Pontiff),,128,1954 Ordo p.128,C2b-1,,"was C2b, now as Divinum Officium directs"
+07-14,S. Bonaventurae Episcopi Confessoris Ecclesiae Doctoris,"St. Bonaventure, Bishop, Confessor and Doctor",dx,Office,Doctors,,128,1954 Ordo p.128,C4a,,
+07-15,S. Henrici Imperatoris Confessoris,"St. Henry, Emperor and Confessor",sdx,Office,Confessor not Bishop,,129,1954 Ordo p.129,C5,,
+07-16,In Commemoratione B.M.V. de Monte Carmelo,Our Lady of Mount Carmel,dx maj,Office,Proper / B.V.M.,,129,1954 Ordo p.129,C11,,
+07-17,S. Alexii Confessoris,"St. Alexius, Confessor",sdx,Office,Confessor not Bishop,,129,1954 Ordo p.129,C5,,
+07-18,S. Camilli de Lellis Confessoris,"St. Camillus de Lellis, Confessor",dx,Office,Confessor not Bishop,,130,1954 Ordo p.130,C5,,
+07-18,S. Symphorosae et Septem Filiorum ejus Martyrum,"St. Symphorosa and her Seven Sons, Martyrs",simplex,Commemoration,Several Martyrs,,129,1954 Ordo p.129,C3a,,
+07-19,S. Vincentii a Paulo Confessoris,"St. Vincent de Paul, Confessor",dx,Office,Confessor not Bishop,,130,1954 Ordo p.130,C5-1,,"was C5, now as Divinum Officium directs"
+07-20,S. Hieronymi Aemiliani Confessoris,"St. Jerome Emiliani, Confessor",dx,Office,Confessor not Bishop,,130,1954 Ordo p.130,C5,,
+07-20,S. Margaritae Virginis et Martyris,"St. Margaret, Virgin and Martyr",simplex,Commemoration,Virgin Martyr,,130,1954 Ordo p.130,C6-1,,"was C6, now as Divinum Officium directs"
+07-21,S. Praxedis Virginis,"St. Praxedes, Virgin",simplex,Office,Virgins,,130,1954 Ordo p.130 (not pinned to date — check),C6a,,
+07-22,S. Mariae Magdalenae Poenitentis,"St. Mary Magdalene, Penitent",dx,Office,Holy Women (proper parts),,131,1954 Ordo p.131,C7a,,
+07-23,S. Apollinaris Episcopi et Martyris,"St. Apollinaris, Bishop and Martyr",dx,Office,One Martyr (Bishop),,131,1954 Ordo p.131,C2-1,,"was C2, now as Divinum Officium directs"
+07-23,S. Liborii Episcopi Confessoris,"St. Liborius, Bishop and Confessor",simplex,Commemoration,Confessor Bishop,,131,1954 Ordo p.131,C4,,
+07-24,Vigilia S. Jacobi Apostoli,Vigil of St. James,vigil,Office,Proper,,131,1954 Ordo p.131,C1v,,
+07-24,S. Christinae Virginis et Martyris,"St. Christina, Virgin and Martyr",simplex,Commemoration,Virgin Martyr,,131,1954 Ordo p.131,C6-1,,"was C6, now as Divinum Officium directs"
+07-25,S. Jacobi Apostoli,"St. James the Greater, Apostle",dx 2 cl,Office,Apostles + proper,,131,1954 Ordo p.131,C1,,
+07-25,S. Christophori Martyris,"St. Christopher, Martyr",simplex,Commemoration,One Martyr (not Bishop),,132,1954 Ordo p.132,C2a,,
+07-26,S. Annae Matris B.M.V.,"St. Anne, Mother of the B.V.M.",dx 2 cl,Office,Holy Women (proper parts),,132,1954 Ordo p.132,C7a,,
+07-27,S. Pantaleonis Martyris,"St. Pantaleon, Martyr",simplex,Office,One Martyr (not Bishop),,133,1954 Ordo p.133,C2a-1,,"was C2a, now as Divinum Officium directs"
+07-28,"Ss. Nazarii et Celsi, Victoris I et Innocentii I","Sts. Nazarius, Celsus, Victor I and Innocent I",sdx,Office,Several Martyrs,,133,1954 Ordo p.133,C3,,"was C3a, now as Divinum Officium directs"
+07-29,S. Marthae Virginis,"St. Martha, Virgin",sdx,Office,Virgins (proper parts),,134,1954 Ordo p.134,C6a,,
+07-29,"Ss. Felicis II, Simplicii, Faustini et Beatricis Martyrum","Sts. Felix, Simplicius, Faustinus and Beatrice, Martyrs",simplex,Commemoration,Several Martyrs,,133,1954 Ordo p.133,C3a,,
+07-30,Ss. Abdon et Sennen Martyrum,"Sts. Abdon and Sennen, Martyrs",simplex,Office,Several Martyrs,,134,1954 Ordo p.134,C3,,"was C3a, now as Divinum Officium directs"
+07-31,S. Ignatii Confessoris,"St. Ignatius of Loyola, Confessor",dx maj,Office,Confessor not Bishop (proper parts),,134,1954 Ordo p.134 (not pinned to date — check),C5,,
+08-01,S. Petri ad Vincula,St. Peter in Chains,dx maj,Office,Proper,,135,1954 Ordo p.135 (not pinned to date — check),Proper + C1,,
+08-01,Ss. Machabaeorum Martyrum,"Holy Machabees, Martyrs",simplex,Commemoration,Several Martyrs,,135,1954 Ordo p.135 (not pinned to date — check),C3,,"was C3a, now as Divinum Officium directs"
+08-02,S. Alfonsi Mariae de Ligorio Episcopi Confessoris Ecclesiae Doctoris,"St. Alphonsus Liguori, Bishop, Confessor and Doctor",dx,Office,Doctors,,135,1954 Ordo p.135,C4a,,
+08-02,S. Stephani I Papae et Martyris,"St. Stephen I, Pope and Martyr",simplex,Commemoration,One Martyr (Supreme Pontiff),,135,1954 Ordo p.135,C2b-1,,"was C2b, now as Divinum Officium directs"
+08-03,In Inventione S. Stephani Protomartyris,"Finding of St. Stephen, First Martyr",sdx,Office,Proper,,135,1954 Ordo p.135,Proper,,
+08-04,S. Dominici Confessoris,"St. Dominic, Confessor",dx maj,Office,Confessor not Bishop (proper parts),,136,1954 Ordo p.136,C5,,
+08-05,In Dedicatione S. Mariae ad Nives,Dedication of Our Lady of the Snows,dx maj,Office,B.V.M.,,136,1954 Ordo p.136 (scan checked),C11,,
+08-06,In Transfiguratione D.N.J.C.,Transfiguration of Our Lord,dx 2 cl,Office,Proper,,137,1954 Ordo p.137,Proper,,
+08-06,"Ss. Xysti II, Felicissimi et Agapiti Martyrum","Sts. Sixtus II, Felicissimus and Agapitus, Martyrs",simplex,Commemoration,Several Martyrs,,137,1954 Ordo p.137,C3a,,
+08-07,S. Cajetani Confessoris,"St. Cajetan, Confessor",dx,Office,Confessor not Bishop,,137,1954 Ordo p.137,C5,,
+08-07,S. Donati Episcopi et Martyris,"St. Donatus, Bishop and Martyr",simplex,Commemoration,One Martyr (Bishop),,137,1954 Ordo p.137,C2-1,,"was C2, now as Divinum Officium directs"
+08-08,"Ss. Cyriaci, Largi et Smaragdi Martyrum","Sts. Cyriacus, Largus and Smaragdus, Martyrs",sdx,Office,Several Martyrs,,138,1954 Ordo p.138,C3a-1,,"was C3a, now as Divinum Officium directs"
+08-09,S. Joannis Mariae Vianney Confessoris,"St. John Mary Vianney, Confessor",dx,Office,Confessor not Bishop,,138,1954 Ordo p.138,C5,,
+08-09,Vigilia S. Laurentii; S. Romani Martyris,"Vigil of St. Lawrence; St. Romanus, Martyr",vigil + simplex,Commemoration,Proper / One Martyr,,138,1954 Ordo p.138,C2a,,
+08-10,S. Laurentii Martyris,"St. Lawrence, Martyr",dx 2 cl with simple octave,Office,One Martyr (proper parts),,138,1954 Ordo p.138 (not pinned to date — check),C2a,,
+08-11,Ss. Tiburtii et Susannae Virginis Martyrum,"Sts. Tiburtius and Susanna, Martyrs",simplex,Office,Several Martyrs,,139,1954 Ordo p.139,C3a-1,,"was C3a, now as Divinum Officium directs"
+08-12,S. Clarae Virginis,"St. Clare, Virgin",dx,Office,Virgins,,139,1954 Ordo p.139,C6a,,
+08-13,Ss. Hippolyti et Cassiani Martyrum,"Sts. Hippolytus and Cassian, Martyrs",simplex,Office,Several Martyrs,,139,1954 Ordo p.139,C3a-1,,"was C3a, now as Divinum Officium directs"
+08-14,Vigilia Assumptionis; S. Eusebii Confessoris,Vigil of the Assumption; St. Eusebius,vigil + simplex,Commemoration,Proper / Confessor,,139,1954 Ordo p.139,Proper + C5,,
+08-15,In Assumptione B.M.V.,Assumption of the B.V.M.,dx 1 cl,Office,Proper (1950 office),,140,1954 Ordo p.140,Proper + C11,,
+08-16,S. Joachim Patris B.M.V. Confessoris,"St. Joachim, Father of the B.V.M.",dx 2 cl,Office,Proper,,141,1954 Ordo p.141,Proper + C5,,
+08-17,S. Hyacinthi Confessoris,"St. Hyacinth, Confessor",dx,Office,Confessor not Bishop,,141,1954 Ordo p.141,C5,,
+08-18,S. Agapiti Martyris,"St. Agapitus, Martyr",simplex,Office,One Martyr (not Bishop),,141,1954 Ordo p.141,C2a-1,,"was C2a, now as Divinum Officium directs"
+08-19,S. Joannis Eudes Confessoris,"St. John Eudes, Confessor",dx,Office,Confessor not Bishop,,142,1954 Ordo p.142 (not pinned to date — check),C5,,
+08-20,S. Bernardi Abbatis Ecclesiae Doctoris,"St. Bernard, Abbot and Doctor",dx,Office,Doctors,,142,1954 Ordo p.142 (not pinned to date — check),C5a,,
+08-21,S. Joannae Franciscae Fremiot de Chantal Viduae,"St. Jane Frances de Chantal, Widow",dx,Office,Holy Women (not Virgin),,143,1954 Ordo p.143,C7a,,
+08-22,Immaculati Cordis B.M.V.,Immaculate Heart of Mary,dx 2 cl,Office,Proper (1944),,143,1954 Ordo p.143,Proper + C11,,
+08-22,"Ss. Timothei, Hippolyti et Symphoriani Martyrum","Sts. Timothy, Hippolytus and Symphorian, Martyrs",simplex,Commemoration,Several Martyrs,,142,1954 Ordo p.142,C3a-1,,"was C3a, now as Divinum Officium directs"
+08-23,S. Philippi Benitii Confessoris,"St. Philip Benizi, Confessor",dx,Office,Confessor not Bishop,,143,1954 Ordo p.143,C5-1,,"was C5, now as Divinum Officium directs"
+08-24,S. Bartholomaei Apostoli,"St. Bartholomew, Apostle",dx 2 cl,Office,Apostles + proper,,143,1954 Ordo p.143 (not pinned to date — check),C1,,
+08-25,S. Ludovici Regis Confessoris,"St. Louis, King and Confessor",sdx,Office,Confessor not Bishop,,144,1954 Ordo p.144,C5,,
+08-26,S. Zephyrini Papae et Martyris,"St. Zephyrinus, Pope and Martyr",simplex,Office,One Martyr (Supreme Pontiff),,,1954 Gniezno: displaced by Our Lady of Czestochowa (local),C2b-1,,"was C2b, now as Divinum Officium directs"
+08-27,S. Josephi Calasanctii Confessoris,"St. Joseph Calasanctius, Confessor",dx,Office,Confessor not Bishop,,145,1954 Ordo p.145,C5,,
+08-28,S. Augustini Episcopi Confessoris Ecclesiae Doctoris,"St. Augustine, Bishop, Confessor and Doctor",dx,Office,Doctors (proper parts),,145,1954 Ordo p.145,C4a,,
+08-28,S. Hermetis Martyris,"St. Hermes, Martyr",simplex,Commemoration,One Martyr (not Bishop),,145,1954 Ordo p.145,C2a-1,,"was C2a, now as Divinum Officium directs"
+08-29,In Decollatione S. Joannis Baptistae,Beheading of St. John the Baptist,dx maj,Office,Proper,,145,1954 Ordo p.145,Proper + C2a,,
+08-29,S. Sabinae Martyris,"St. Sabina, Martyr",simplex,Commemoration,Holy Women Martyr,,145,1954 Ordo p.145,C7,,
+08-30,S. Rosae Limanae Virginis,"St. Rose of Lima, Virgin",dx,Office,Virgins,,146,1954 Ordo p.146,C6a,,
+08-30,Ss. Felicis et Adaucti Martyrum,"Sts. Felix and Adauctus, Martyrs",simplex,Commemoration,Several Martyrs,,146,1954 Ordo p.146,C3a,,
+08-31,S. Raymundi Nonnati Confessoris,"St. Raymond Nonnatus, Confessor",dx,Office,Confessor not Bishop,,146,1954 Ordo p.146,C5,,
+09-01,S. Aegidii Abbatis,"St. Giles, Abbot",simplex,Office,Abbots,,147,1954 Ordo p.147 (not pinned to date — check),C5b,,
+09-01,Ss. Duodecim Fratrum Martyrum,"Twelve Holy Brothers, Martyrs",simplex,Commemoration,Several Martyrs,,147,1954 Ordo p.147 (not pinned to date — check),C3,,"was C3a, now as Divinum Officium directs"
+09-02,S. Stephani Regis Confessoris,"St. Stephen of Hungary, King and Confessor",sdx,Office,Confessor not Bishop,,147,1954 Ordo p.147,C5,,
+09-05,S. Laurentii Justiniani Episcopi Confessoris,"St. Lawrence Justinian, Bishop and Confessor",sdx,Office,Confessor Bishop,,148,1954 Ordo p.148 (not pinned to date — check),C4,,
+09-08,In Nativitate B.M.V.,Nativity of the B.V.M.,dx 2 cl,Office,Proper,,149,1954 Ordo p.149 (not pinned to date — check),Proper + C11,,
+09-08,S. Hadriani Martyris,"St. Adrian, Martyr",simplex,Commemoration,One Martyr (not Bishop),,150,1954 Ordo p.150 (not pinned to date — check),C2a,,
+09-09,S. Gorgonii Martyris,"St. Gorgonius, Martyr",simplex,Office,One Martyr (not Bishop),,150:,1954 Ordo p.150: office of St. Gorgonius; St. Peter Claver is NOT in this calendar,C2a-1,,"was C2a, now as Divinum Officium directs"
+09-10,S. Nicolai de Tolentino Confessoris,"St. Nicholas of Tolentino, Confessor",dx,Office,Confessor not Bishop,,150,1954 Ordo p.150,C5-1,,"was C5, now as Divinum Officium directs"
+09-11,Ss. Proti et Hyacinthi Martyrum,"Sts. Protus and Hyacinth, Martyrs",simplex,Office,Several Martyrs,,150,1954 Ordo p.150 (not pinned to date — check),C3a-1,,"was C3a, now as Divinum Officium directs"
+09-12,Sanctissimi Nominis B.M.V.,Most Holy Name of Mary,dx maj,Office,Proper / B.V.M.,,151,1954 Ordo p.151 (not pinned to date — check),C11,,
+09-14,In Exaltatione S. Crucis,Exaltation of the Holy Cross,dx maj,Office,Proper,,152,1954 Ordo p.152,Proper,,
+09-15,Septem Dolorum B.M.V.,Seven Sorrows of the B.V.M.,dx 2 cl,Office,Proper,,152,1954 Ordo p.152,Proper + C11,,
+09-15,S. Nicomedis Martyris,"St. Nicomedes, Martyr",simplex,Commemoration,One Martyr (not Bishop),,152,1954 Ordo p.152,C2a,,
+09-16,Ss. Cornelii Papae et Cypriani Episcopi Martyrum,"Sts. Cornelius and Cyprian, Martyrs",sdx,Office,Several Martyrs,,153,1954 Ordo p.153,C3,,Pope + Bishop: C3 (Bishops) — check
+09-16,"Ss. Euphemiae, Luciae et Geminiani Martyrum","Sts. Euphemia, Lucy and Geminian, Martyrs",simplex,Commemoration,Several Martyrs,,153,1954 Ordo p.153,C3,,"was C3a, now as Divinum Officium directs"
+09-17,Impressio Stigmatum S. Francisci,Stigmata of St. Francis,dx,Office,Proper / Confessor,,153,1954 Ordo p.153,Proper + C5,,
+09-18,S. Josephi de Cupertino Confessoris,"St. Joseph of Cupertino, Confessor",dx,Office,Confessor not Bishop,,154,1954 Ordo p.154,C5,,
+09-19,Ss. Januarii Episcopi et Sociorum Martyrum,"Sts. Januarius and Companions, Martyrs",dx,Office,Several Martyrs,,154,1954 Ordo p.154,C3a-1,,"was C3a, now as Divinum Officium directs"
+09-20,Ss. Eustachii et Sociorum Martyrum,"Sts. Eustace and Companions, Martyrs",dx,Office,Several Martyrs,,153,1954 Ordo p.153,C3a,,
+09-21,S. Matthaei Apostoli et Evangelistae,"St. Matthew, Apostle and Evangelist",dx 2 cl,Office,Apostles + proper,,155,1954 Ordo p.155,C1a,,"was C1, now as Divinum Officium directs"
+09-22,S. Thomae de Villanova Episcopi Confessoris,"St. Thomas of Villanova, Bishop and Confessor",dx,Office,Confessor Bishop,,156,1954 Ordo p.156,C4,,
+09-22,Ss. Mauritii et Sociorum Martyrum,"Sts. Maurice and Companions, Martyrs",simplex,Commemoration,Several Martyrs,,,1954 Gniezno: day taken by local Dedication; not mentioned,C3,,"was C3a, now as Divinum Officium directs"
+09-23,S. Lini Papae et Martyris,"St. Linus, Pope and Martyr",sdx,Office,One Martyr (Supreme Pontiff),,156,1954 Ordo p.156,C2b-1,,"was C2b, now as Divinum Officium directs"
+09-23,S. Theclae Virginis et Martyris,"St. Thecla, Virgin and Martyr",simplex,Commemoration,Virgin Martyr,,156,1954 Ordo p.156,C6,,
+09-24,B.M.V. de Mercede,Our Lady of Ransom,dx maj,Office,B.V.M.,,157,1954 Ordo p.157,C11,,
+09-26,Ss. Cypriani et Justinae Martyrum,"Sts. Cyprian and Justina, Martyrs",simplex,Office,Several Martyrs,,157,1954 Ordo p.157,C3a-1,,"was C3a, now as Divinum Officium directs"
+09-27,Ss. Cosmae et Damiani Martyrum,"Sts. Cosmas and Damian, Martyrs",sdx,Office,Several Martyrs,,158,1954 Ordo p.158,C3a,,
+09-28,S. Wenceslai Ducis et Martyris,"St. Wenceslaus, Duke and Martyr",sdx,Office,One Martyr (not Bishop),,158,1954 Ordo p.158,C2a,,
+09-29,In Dedicatione S. Michaelis Archangeli,Dedication of St. Michael the Archangel,dx 1 cl,Office,Proper,,158,1954 Ordo p.158,Proper,,
+09-30,S. Hieronymi Presbyteri Confessoris Ecclesiae Doctoris,"St. Jerome, Priest, Confessor and Doctor",dx,Office,Doctors,,159,1954 Ordo p.159,C5a,,
+10-01,S. Remigii Episcopi Confessoris,"St. Remigius, Bishop and Confessor",simplex,Office,Confessor Bishop,,160,1954 Ordo p.160 (not pinned to date — check),C4,,
+10-02,Ss. Angelorum Custodum,Holy Guardian Angels,dx maj,Office,Proper,,160,1954 Ordo p.160 (not pinned to date — check),Proper + C4,,
+10-03,S. Teresiae a Jesu Infante Virginis,"St. Thérèse of the Child Jesus, Virgin",dx,Office,Virgins,,160,1954 Ordo p.160 (not pinned to date — check),C6a,,
+10-04,S. Francisci Confessoris,"St. Francis of Assisi, Confessor",dx maj,Office,Confessor not Bishop (proper parts),,161,1954 Ordo p.161,C5,,
+10-05,Ss. Placidi et Sociorum Martyrum,"Sts. Placid and Companions, Martyrs",simplex,Office,Several Martyrs,,161,1954 Ordo p.161,C3a-1,,"was C3a, now as Divinum Officium directs"
+10-06,S. Brunonis Confessoris,"St. Bruno, Confessor",dx,Office,Confessor not Bishop,,161,1954 Ordo p.161,C5,,
+10-07,Sacratissimi Rosarii B.M.V.,Most Holy Rosary of the B.V.M.,dx 2 cl,Office,Proper,,162,1954 Ordo p.162,Proper + C11,,
+10-07,S. Marci Papae Confessoris,"St. Mark, Pope and Confessor",simplex,Commemoration,Confessor Bishop (Supreme Pontiff),,162,1954 Ordo p.162,C4b,,
+10-08,S. Birgittae Viduae,"St. Bridget of Sweden, Widow",dx,Office,Holy Women (not Virgin),,162,1954 Ordo p.162,C7a,,
+10-08,"Ss. Sergii, Bacchi, Marcelli et Apulei Martyrum","Sts. Sergius, Bacchus, Marcellus and Apuleius, Martyrs",simplex,Commemoration,Several Martyrs,,162,1954 Ordo p.162,C7a,,"was C3a, now as Divinum Officium directs"
+10-09,S. Joannis Leonardi Confessoris,"St. John Leonardi, Confessor",dx,Office,Confessor not Bishop,,163,1954 Ordo p.163,C5,,
+10-09,"Ss. Dionysii, Rustici et Eleutherii Martyrum","Sts. Denis, Rusticus and Eleutherius, Martyrs",simplex,Commemoration,Several Martyrs,,163,1954 Ordo p.163,C3a,,
+10-10,S. Francisci Borgiae Confessoris,"St. Francis Borgia, Confessor",sdx,Office,Confessor not Bishop,,163,1954 Ordo p.163,C5,,
+10-11,Maternitatis B.M.V.,Maternity of the B.V.M.,dx 2 cl,Office,Proper,,164,1954 Ordo p.164,Proper + C11,,
+10-13,S. Eduardi Regis Confessoris,"St. Edward the Confessor, King",sdx,Office,Confessor not Bishop,,165,1954 Ordo p.165,C5,,
+10-14,S. Callisti I Papae et Martyris,"St. Callistus I, Pope and Martyr",dx,Office,One Martyr (Supreme Pontiff),,165,1954 Ordo p.165,C2b,,
+10-15,S. Teresiae Virginis,"St. Teresa of Avila, Virgin",dx,Office,Virgins (proper hymns),,165,1954 Ordo p.165,C6a,,
+10-16,S. Hedwigis Viduae,"St. Hedwig, Widow",sdx,Office,Holy Women (not Virgin),,,Gniezno keeps her as dx maj (local elevation),C7a,,
+10-17,S. Margaritae Mariae Alacoque Virginis,"St. Margaret Mary Alacoque, Virgin",dx,Office,Virgins,,166,1954 Ordo p.166,C6a,,
+10-18,S. Lucae Evangelistae,"St. Luke, Evangelist",dx 2 cl,Office,Apostles + proper,,166,1954 Ordo p.166,C1a,,
+10-19,S. Petri de Alcantara Confessoris,"St. Peter of Alcantara, Confessor",dx,Office,Confessor not Bishop,,166,1954 Ordo p.166,C5-1,,"was C5, now as Divinum Officium directs"
+10-20,S. Joannis Cantii Confessoris,"St. John Cantius, Confessor",dx,Office,Confessor not Bishop,,,Gniezno keeps him as dx maj (local elevation),C5,,
+10-21,S. Hilarionis Abbatis,"St. Hilarion, Abbot",simplex,Office,Abbots,,170,1954 Ordo p.170,C5b,,
+10-21,Ss. Ursulae et Sociarum Virginum et Martyrum,"Sts. Ursula and Companions, Virgins and Martyrs",simplex,Commemoration,Virgin Martyrs,,170,1954 Ordo p.170,C6b,,
+10-24,S. Raphaelis Archangeli,St. Raphael the Archangel,dx maj,Office,Proper,,171,1954 Ordo p.171,Proper,,
+10-25,Ss. Chrysanthi et Dariae Martyrum,"Sts. Chrysanthus and Daria, Martyrs",simplex,Office,Several Martyrs,,171,1954 Ordo p.171,C3,,"was C3a, now as Divinum Officium directs"
+10-26,S. Evaristi Papae et Martyris,"St. Evaristus, Pope and Martyr",simplex,Office,One Martyr (Supreme Pontiff),,172,1954 Ordo p.172,C2b,,
+10-27,Vigilia Ss. Simonis et Judae,Vigil of Sts. Simon and Jude,vigil,Office,Proper,,172,1954 Ordo p.172,C1v,,
+10-28,Ss. Simonis et Judae Apostolorum,"Sts. Simon and Jude, Apostles",dx 2 cl,Office,Apostles + proper,,172,1954 Ordo p.172 (not pinned to date — check),C1,,
+10-31,Vigilia Omnium Sanctorum,Vigil of All Saints,vigil,Office,Proper,,173,1954 Ordo p.173,Proper,,
+11-01,Omnium Sanctorum,All Saints,dx 1 cl with octave,Office,Proper,,175,1954 Ordo p.175,Proper + C3,,
+11-02,In Commemoratione Omnium Fidelium Defunctorum,All Souls,dx,Office,Office of the Dead,,175,1954 Ordo p.175,C9,,
+11-04,S. Caroli Episcopi Confessoris,"St. Charles Borromeo, Bishop and Confessor",dx,Office,Confessor Bishop,,178,1954 Ordo p.178,C4,,
+11-04,Ss. Vitalis et Agricolae Martyrum,"Sts. Vitalis and Agricola, Martyrs",simplex,Commemoration,Several Martyrs,,178,1954 Ordo p.178,C3a,,
+11-08,Octava Omnium Sanctorum,Octave Day of All Saints,dx maj,Office,Proper,,179,1954 Ordo p.179,Proper,,
+11-08,Ss. Quatuor Coronatorum Martyrum,Four Crowned Martyrs,simplex,Commemoration,Several Martyrs,,179,1954 Ordo p.179,C3,,"was C3a, now as Divinum Officium directs"
+11-09,In Dedicatione Archibasilicae Ss. Salvatoris,Dedication of the Lateran Basilica,dx 2 cl,Office,Dedication of a Church,,180,1954 Ordo p.180,C8,,
+11-09,S. Theodori Martyris,"St. Theodore, Martyr",simplex,Commemoration,One Martyr (not Bishop),,180,1954 Ordo p.180,C2a-1,,"was C2a, now as Divinum Officium directs"
+11-10,S. Andreae Avellini Confessoris,"St. Andrew Avellino, Confessor",dx,Office,Confessor not Bishop,,180,1954 Ordo p.180,C5,,
+11-10,"Ss. Tryphonis, Respicii et Nymphae Martyrum","Sts. Tryphon, Respicius and Nympha, Martyrs",simplex,Commemoration,Several Martyrs,,180,1954 Ordo p.180,C3a,,
+11-11,S. Martini Episcopi Confessoris,"St. Martin of Tours, Bishop and Confessor",dx,Office,Confessor Bishop (proper parts),,180,1954 Ordo p.180,C4,,
+11-11,S. Mennae Martyris,"St. Mennas, Martyr",simplex,Commemoration,One Martyr (not Bishop),,180,1954 Ordo p.180,C2a-1,,"was C2a, now as Divinum Officium directs"
+11-12,S. Martini I Papae et Martyris,"St. Martin I, Pope and Martyr",sdx,Office,One Martyr (Supreme Pontiff),,180,1954 Ordo p.180 (not pinned to date — check),C2b-1,,"was C2b, now as Divinum Officium directs"
+11-13,S. Didaci Confessoris,"St. Didacus, Confessor",sdx,Office,Confessor not Bishop,,181,1954 Ordo p.181 (not pinned to date — check),C5-1,,"was C5, now as Divinum Officium directs"
+11-14,S. Josaphat Episcopi et Martyris,"St. Josaphat, Bishop and Martyr",dx,Office,One Martyr (Bishop),,181,1954 Ordo p.181,C2,,
+11-15,S. Alberti Magni Episcopi Confessoris Ecclesiae Doctoris,"St. Albert the Great, Bishop, Confessor and Doctor",dx,Office,Doctors,,182,1954 Ordo p.182,C4a,,
+11-16,S. Gertrudis Virginis,"St. Gertrude, Virgin",dx,Office,Virgins,,182,1954 Ordo p.182 (not pinned to date — check),C6a,,
+11-17,S. Gregorii Thaumaturgi Episcopi Confessoris,"St. Gregory the Wonderworker, Bishop and Confessor",sdx,Office,Confessor Bishop,,182,1954 Ordo p.182,C4,,
+11-18,In Dedicatione Basilicarum Ss. Petri et Pauli,Dedication of the Basilicas of Sts. Peter and Paul,dx maj,Office,Dedication of a Church,,182,1954 Ordo p.182,C8,,
+11-19,S. Elisabeth Viduae,"St. Elizabeth of Hungary, Widow",dx,Office,Holy Women (not Virgin),,183,1954 Ordo p.183,C7a,,
+11-19,S. Pontiani Papae et Martyris,"St. Pontian, Pope and Martyr",simplex,Commemoration,One Martyr (Supreme Pontiff),,183,1954 Ordo p.183,C2b,,
+11-20,S. Felicis de Valois Confessoris,"St. Felix of Valois, Confessor",dx,Office,Confessor not Bishop,,183,1954 Ordo p.183,C5-1,,"was C5, now as Divinum Officium directs"
+11-21,In Praesentatione B.M.V.,Presentation of the B.V.M.,dx maj,Office,B.V.M.,,184,1954 Ordo p.184,C11,,
+11-22,S. Caeciliae Virginis et Martyris,"St. Cecilia, Virgin and Martyr",dx,Office,Virgin Martyr (proper parts),,184,1954 Ordo p.184,C6,,
+11-23,S. Clementis I Papae et Martyris,"St. Clement I, Pope and Martyr",dx,Office,One Martyr (Supreme Pontiff),,184,1954 Ordo p.184,C2b,,
+11-23,S. Felicitatis Martyris,"St. Felicity, Martyr",simplex,Commemoration,Holy Women Martyr,,184,1954 Ordo p.184,C7,,
+11-24,S. Joannis a Cruce Confessoris Ecclesiae Doctoris,"St. John of the Cross, Confessor and Doctor",dx,Office,Doctors,,185,1954 Ordo p.185 (scan checked),C5a,,
+11-24,S. Chrysogoni Martyris,"St. Chrysogonus, Martyr",simplex,Commemoration,One Martyr (not Bishop),,185,1954 Ordo p.185 (9th lesson),C2a,,
+11-25,S. Catharinae Virginis et Martyris,"St. Catherine of Alexandria, Virgin and Martyr",dx,Office,Virgin Martyr (proper parts),,185,1954 Ordo p.185,C6,,
+11-26,S. Silvestri Abbatis,"St. Sylvester Gozzolini, Abbot",dx,Office,Abbots,,185,1954 Ordo p.185,C5b,,
+11-26,S. Petri Alexandrini Episcopi et Martyris,"St. Peter of Alexandria, Bishop and Martyr",simplex,Commemoration,One Martyr (Bishop),,185,1954 Ordo p.185,C2,,
+11-29,Vigilia S. Andreae; S. Saturnini Martyris,Vigil of St. Andrew; St. Saturninus,vigil + simplex,Commemoration,Proper / One Martyr,,188,1954 Ordo p.188,C2a-1,,"Vigil of Andrew uses C1v; St. Saturninus commemorated from C2a; was C1v, now as Divinum Officium directs"
+11-30,S. Andreae Apostoli,"St. Andrew, Apostle",dx 2 cl,Office,Apostles + proper,,180,1954 Ordo p.180 (not pinned to date — check),C1,,
+12-02,S. Bibianae Virginis et Martyris,"St. Bibiana, Virgin and Martyr",sdx,Office,Virgin Martyr,,190,1954 Ordo p.190,C6-1,,"was C6, now as Divinum Officium directs"
+12-03,S. Francisci Xaverii Confessoris,"St. Francis Xavier, Confessor",dx maj,Office,Confessor not Bishop,,191,1954 Ordo p.191,C5-1,,"was C5, now as Divinum Officium directs"
+12-04,S. Petri Chrysologi Episcopi Confessoris Ecclesiae Doctoris,"St. Peter Chrysologus, Bishop, Confessor and Doctor",dx,Office,Doctors,,191,1954 Ordo p.191,C4a,,
+12-04,S. Barbarae Virginis et Martyris,"St. Barbara, Virgin and Martyr",simplex,Commemoration,Virgin Martyr,,191,1954 Ordo p.191,C6,,
+12-05,S. Sabbae Abbatis,"St. Sabbas, Abbot",simplex,Commemoration,Abbots,,192,1954 Ordo p.192,C5b,,
+12-06,S. Nicolai Episcopi Confessoris,"St. Nicholas, Bishop and Confessor",dx,Office,Confessor Bishop (proper parts),,192,1954 Ordo p.192,C4,,
+12-07,S. Ambrosii Episcopi Confessoris Ecclesiae Doctoris,"St. Ambrose, Bishop, Confessor and Doctor",dx,Office,Doctors,,193,1954 Ordo p.193,C4a,,
+12-08,In Conceptione Immaculata B.M.V.,Immaculate Conception of the B.V.M.,dx 1 cl with octave,Office,Proper,,193,1954 Ordo p.193 (not pinned to date — check),Proper + C11,,
+12-10,S. Melchiadis Papae et Martyris,"St. Melchiades, Pope and Martyr",simplex,Commemoration,One Martyr (Supreme Pontiff),,194,1954 Ordo p.194,C2b,,
+12-11,S. Damasi I Papae Confessoris,"St. Damasus I, Pope and Confessor",sdx,Office,Confessor Bishop (Supreme Pontiff),,194,1954 Ordo p.194: printed sdx (scan checked),C4b,,
+12-13,S. Luciae Virginis et Martyris,"St. Lucy, Virgin and Martyr",dx,Office,Virgin Martyr (proper parts),,195,1954 Ordo p.195,C6,,
+12-16,S. Eusebii Episcopi et Martyris,"St. Eusebius, Bishop and Martyr",sdx,Office,One Martyr (Bishop),,197,1954 Ordo p.197 (not pinned to date — check),C2-1,,"was C2, now as Divinum Officium directs"
+12-21,S. Thomae Apostoli,"St. Thomas, Apostle",dx 2 cl,Office,Apostles + proper,,198,1954 Ordo p.198,C1,,
+12-24,Vigilia Nativitatis Domini,Christmas Eve,dx 1 cl (vigil),Office,Proper,,200,1954 Ordo p.200,Proper,,
+12-25,In Nativitate Domini,Christmas,dx 1 cl with octave,Office,Proper,,201,1954 Ordo p.201,Proper,,
+12-26,S. Stephani Protomartyris,"St. Stephen, First Martyr",dx 2 cl,Office,Proper,,203,1954 Ordo p.203 (not pinned to date — check),Proper + C2a,,
+12-27,S. Joannis Apostoli et Evangelistae,"St. John, Apostle and Evangelist",dx 2 cl,Office,Proper,,203,1954 Ordo p.203 (not pinned to date — check),Proper + C1,,
+12-28,Ss. Innocentium Martyrum,Holy Innocents,dx 2 cl,Office,Proper,,204,1954 Ordo p.204 (not pinned to date — check),Proper + C3,,
+12-29,S. Thomae Episcopi et Martyris,"St. Thomas Becket, Bishop and Martyr",dx,Office,One Martyr (Bishop),,204,1954 Ordo p.204,C2-1,,"was C2, now as Divinum Officium directs"
+12-31,S. Silvestri I Papae Confessoris,"St. Sylvester I, Pope and Confessor",dx,Office,Confessor Bishop (Supreme Pontiff),,205,1954 Ordo p.205 (not pinned to date — check),C4b,,
+03-04,S. Casimiri Confessoris (Poloniae Patroni),St. Casimir (Polish patron),dx maj (local),LOCAL,Confessor not Bishop,S. Lucii Pp.M.,58,LOCAL — Poland raises universal sdx,C5,,
+03-08,B. Vincentii Kadłubek Episcopi Confessoris,"Bl. Vincent Kadłubek, Bishop and Confessor",dx (local),LOCAL,Confessor Bishop,S. Joannis de Deo,61,LOCAL — excluded from universal,C4,,
+03-15,S. Clementis Mariae Hofbauer Confessoris,"St. Clement Mary Hofbauer, Confessor",dx (local),LOCAL,Confessor not Bishop,,64,LOCAL,C5,,
+03-17,B. Joannis Sarcander Martyris,"Bl. John Sarkander, Martyr",dx maj (local),LOCAL,Several Martyrs (RR. for one),S. Patricii,65,LOCAL — St. Patrick commemorated,C3a,,
+04-26,"S. Adalberti Episcopi et Martyris, Patroni Principalis Archidioec. Gnesnensis","St. Adalbert, principal patron of Gniezno",dx 1 cl with octave (local),LOCAL,One Martyr (Bishop),Ss. Cleti et Marcellini,91,LOCAL — transferred from 23 Apr,C2,C2p,
+05-03,B. Mariae Virginis Reginae Poloniae,Our Lady Queen of Poland,dx 1 cl (local),LOCAL,B.V.M.,Ss. Alexandri et Soc.,95,LOCAL,C11,,
+05-08,S. Stanislai Episcopi et Martyris (Poloniae Patroni),St. Stanislaus (Polish patron),dx 1 cl with octave (local),LOCAL,One Martyr (Paschaltide),,97,LOCAL — universal date 7 May,C2a,C2ap,
+06-01,B. Jacobi de Strepa Episcopi Confessoris,"Bl. James Strepa, Bishop and Confessor",dx (local),LOCAL,Confessor Bishop,,109,LOCAL,C4,,
+06-15,B. Jolentae Viduae,"Bl. Jolenta, Widow",(local),LOCAL,Holy Women,,114,LOCAL,C7a,,
+07-20,B. Ceslai Confessoris,"Bl. Ceslaus, Confessor",(local),LOCAL,Confessor not Bishop,,130,LOCAL,C5,,
+07-24,B. Cunegundis Virginis,"Bl. Cunegunda, Virgin",(local),LOCAL,Virgins,,131,LOCAL — with Vigil of St. James,C6a,,
+08-26,B. Mariae Virginis Claromontanae,Our Lady of Częstochowa,dx 1 cl (local),LOCAL,B.V.M.,,144,LOCAL,C11,,
+09-01,B. Bronislavae Virginis,"Bl. Bronislava, Virgin",dx (local),LOCAL,Virgins,,147,LOCAL,C6a,,
+09-22,Dedicatio Basilicae Primatialis,Dedication of the Primatial Basilica (Gniezno),dx 1 cl with octave (local),LOCAL,Dedication of a Church,S. Thomae de Villanova,155,LOCAL,C8,,
+10-22,In Translatione Reliquiarum S. Adalberti,Translation of the Relics of St. Adalbert,(local),LOCAL,,,169,LOCAL,C2,,
+11-13,S. Stanislai Kostka Confessoris,"St. Stanislaus Kostka, Confessor",(local),LOCAL,Confessor not Bishop,,181,LOCAL,C5,,
+11-17,B. Salomeae Virginis,"Bl. Salomea, Virgin",(local),LOCAL,Virgins,,182,LOCAL,C6a,,
