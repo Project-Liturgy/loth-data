@@ -1,0 +1,223 @@
+{
+ "_note": "Latin forms of saints' names for the Common's 'N.' where the Divinum Officium [Name] is in a different case. voc = after 'beáte/beáta' (Ora pro nobis, beáte N.); gen = after 'beáti'; abl = after 'beáto'. Keyed by 'MM-DD English feast title'. 'phrase' entries rewrite a whole phrase into the plural for feasts of two or more saints (Perpetua & Felicity, Ursula & Companions).",
+ "01-05 St. Telesphorus, Pope and Martyr": {
+  "voc": "Telésphore"
+ },
+ "01-11 St. Hyginus, Pope and Martyr": {
+  "voc": "Hygíne"
+ },
+ "01-14 St. Hilary, Bishop, Confessor and Doctor": {
+  "voc": "Hilári"
+ },
+ "01-24 St. Timothy, Bishop and Martyr": {
+  "voc": "Timóthee"
+ },
+ "01-26 St. Polycarp, Bishop and Martyr": {
+  "voc": "Polycárpe"
+ },
+ "01-30 St. Martina, Virgin and Martyr": {
+  "voc": "Martína"
+ },
+ "02-01 St. Ignatius, Bishop and Martyr": {
+  "voc": "Ignáti"
+ },
+ "02-03 St. Blaise, Bishop and Martyr": {
+  "voc": "Blási"
+ },
+ "02-05 St. Agatha, Virgin and Martyr": {
+  "voc": "Agatha"
+ },
+ "02-09 St. Apollonia, Virgin and Martyr": {
+  "voc": "Apollónia"
+ },
+ "02-18 St. Simeon, Bishop and Martyr": {
+  "voc": "Símeon"
+ },
+ "03-04 St. Lucius I, Pope and Martyr": {
+  "voc": "Lúci"
+ },
+ "03-12 St. Gregory the Great, Pope, Confessor and Doctor": {
+  "voc": "Gregóri"
+ },
+ "04-04 St. Isidore, Bishop, Confessor and Doctor": {
+  "voc": "Isidóre"
+ },
+ "04-11 St. Leo the Great, Pope, Confessor and Doctor": {
+  "voc": "Leo"
+ },
+ "04-17 St. Anicetus, Pope and Martyr": {
+  "voc": "Anicéte"
+ },
+ "04-21 St. Anselm, Bishop, Confessor and Doctor": {
+  "voc": "Ansélme"
+ },
+ "04-27 St. Peter Canisius, Confessor and Doctor": {
+  "voc": "Petre"
+ },
+ "04-28 St. Vitalis, Martyr": {
+  "voc": "Vitális"
+ },
+ "05-02 St. Athanasius, Bishop, Confessor and Doctor": {
+  "voc": "Athanási"
+ },
+ "05-04 St. Monica, Widow": {
+  "voc": "Mónica"
+ },
+ "05-09 St. Gregory Nazianzen, Bishop, Confessor and Doctor": {
+  "voc": "Gregóri"
+ },
+ "05-19 St. Pudentiana, Virgin": {
+  "voc": "Pudentiána"
+ },
+ "05-26 St. Eleutherius, Pope and Martyr": {
+  "voc": "Eleuthéri"
+ },
+ "05-27 St. Bede the Venerable, Confessor and Doctor": {
+  "voc": "Beda"
+ },
+ "05-27 St. John I, Pope and Martyr": {
+  "voc": "Joánnes"
+ },
+ "05-30 St. Felix I, Pope and Martyr": {
+  "voc": "Felix"
+ },
+ "05-31 St. Petronilla, Virgin": {
+  "voc": "Petronílla"
+ },
+ "06-14 St. Basil the Great, Bishop, Confessor and Doctor": {
+  "voc": "Basíli"
+ },
+ "06-20 St. Silverius, Pope and Martyr": {
+  "voc": "Silvéri"
+ },
+ "07-03 St. Leo II, Pope and Confessor": {
+  "gen": "Leónis"
+ },
+ "07-11 St. Pius I, Pope and Martyr": {
+  "voc": "Pie"
+ },
+ "07-13 St. Anacletus, Pope and Martyr": {
+  "voc": "Anacléte"
+ },
+ "07-14 St. Bonaventure, Bishop, Confessor and Doctor": {
+  "voc": "Bonaventúra"
+ },
+ "07-21 St. Praxedes, Virgin": {
+  "voc": "Praxédes"
+ },
+ "07-25 St. Christopher, Martyr": {
+  "voc": "Christóphore"
+ },
+ "07-27 St. Pantaleon, Martyr": {
+  "abl": "Pantaleóne"
+ },
+ "07-29 St. Martha, Virgin": {
+  "voc": "Martha"
+ },
+ "08-02 St. Alphonsus Liguori, Bishop, Confessor and Doctor": {
+  "voc": "Alfónse María"
+ },
+ "08-02 St. Stephen I, Pope and Martyr": {
+  "voc": "Stéphane"
+ },
+ "08-12 St. Clare, Virgin": {
+  "voc": "Clara"
+ },
+ "08-20 St. Bernard, Abbot and Doctor": {
+  "voc": "Bernárde"
+ },
+ "08-21 St. Jane Frances de Chantal, Widow": {
+  "gen": "Joánnæ Francíscæ",
+  "en": "Jane Frances"
+ },
+ "08-26 St. Zephyrinus, Pope and Martyr": {
+  "gen": "Zephyríni",
+  "voc": "Zephyríne"
+ },
+ "08-29 St. Sabina, Martyr": {
+  "voc": "Sabína"
+ },
+ "09-08 St. Adrian, Martyr": {
+  "voc": "Hadriáne"
+ },
+ "09-23 St. Linus, Pope and Martyr": {
+  "voc": "Line"
+ },
+ "09-30 St. Jerome, Priest, Confessor and Doctor": {
+  "voc": "Hierónyme"
+ },
+ "10-07 St. Mark, Pope and Confessor": {
+  "gen": "Marci"
+ },
+ "10-26 St. Evaristus, Pope and Martyr": {
+  "voc": "Evaríste"
+ },
+ "11-12 St. Martin I, Pope and Martyr": {
+  "voc": "Martíne"
+ },
+ "11-19 St. Pontian, Pope and Martyr": {
+  "voc": "Pontiáne"
+ },
+ "11-23 St. Clement I, Pope and Martyr": {
+  "gen": "Cleméntis",
+  "voc": "Clemens"
+ },
+ "11-26 St. Peter of Alexandria, Bishop and Martyr": {
+  "voc": "Petre"
+ },
+ "12-04 St. Barbara, Virgin and Martyr": {
+  "voc": "Bárbara"
+ },
+ "12-07 St. Ambrose, Bishop, Confessor and Doctor": {
+  "voc": "Ambrósi"
+ },
+ "12-10 St. Melchiades, Pope and Martyr": {
+  "voc": "Melchíades"
+ },
+ "12-11 St. Damasus I, Pope and Confessor": {
+  "gen": "Dámasi"
+ },
+ "12-16 St. Eusebius, Bishop and Martyr": {
+  "voc": "Eusébi"
+ },
+ "03-06 Sts. Perpetua and Felicity, Martyrs": {
+  "phrase": {
+   "Ora pro nobis, beáta <span class=\"rub\">N.</span>": "Oráte pro nobis, beátæ Perpétua et Felícitas",
+   "beátæ <span class=\"rub\">N.</span>": "beatárum Perpétuæ et Felicitátis"
+  }
+ },
+ "10-21 Sts. Ursula and Companions, Virgins and Martyrs": {
+  "phrase": {
+   "Ora pro nobis, beáta <span class=\"rub\">N.</span>": "Oráte pro nobis, beátæ Úrsula et Sóciæ"
+  }
+ },
+ "01-20 Sts. Fabian and Sebastian, Martyrs": {
+  "phrase": {
+   "beáti <span class=\"rub\">N.</span> Mártyris tui atque Pontíficis": "beatórum Mártyrum tuórum Fabiáni et Sebastiáni"
+  }
+ },
+ "08-14 Vigil of the Assumption; St. Eusebius": {
+  "gen": "Eusébii",
+  "en": "Eusebius"
+ },
+ "04-23 St. George, Martyr": {
+  "gen": "Geórgii",
+  "en": "George"
+ },
+ "07-26 St. Anne, Mother of the B.V.M.": {
+  "gen": "Annæ",
+  "en": "Anne"
+ },
+ "10-08 St. Bridget of Sweden, Widow": {
+  "gen": "Birgíttæ",
+  "en": "Bridget"
+ },
+ "10-16 St. Hedwig, Widow": {
+  "gen": "Hedwígis",
+  "en": "Hedwig"
+ },
+ "11-19 St. Elizabeth of Hungary, Widow": {
+  "gen": "Elísabeth",
+  "en": "Elizabeth"
+ }
+}
