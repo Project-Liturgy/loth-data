@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Divine Office — Reader (prototype)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --parchment:#EDE3CE; --parchment-deep:#DDD0AF; --shadow:#C9B98C; --ink:#2B2118; --ink-soft:#5A4C39;
+  --rubric:#8B1A1A; --gold:#9C7A3C; --line:#B8A47C; --vol:#8B3A1E;
+  --fs:19px;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --parchment:#201A12; --parchment-deep:#2A2318; --shadow:#14100B; --ink:#E9DFC6; --ink-soft:#B7A985;
+  --rubric:#D97A6E; --gold:#C9A65E; --line:#4A4030; --vol:#C0673F; } }
+:root[data-theme="dark"]{
+  --parchment:#201A12; --parchment-deep:#2A2318; --shadow:#14100B; --ink:#E9DFC6; --ink-soft:#B7A985;
+  --rubric:#D97A6E; --gold:#C9A65E; --line:#4A4030; --vol:#C0673F; }
+*{box-sizing:border-box}
+:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 60px)}
+body{margin:0;background:var(--parchment);color:var(--ink);font-family:'EB Garamond',Georgia,'Times New Roman',serif;
+  font-size:var(--fs);line-height:1.6;-webkit-text-size-adjust:100%}
+button,input,select{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+
+/* ---------- masthead ---------- */
+.mast{background:var(--parchment);padding-top:env(safe-area-inset-top,0px)}
+.ribwrap{position:sticky;top:0;z-index:20;background:var(--parchment);border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top,0px)}
+.ribwrap .ribbons{max-width:1080px;margin:0 auto;padding:0 20px}
+.mast-in{max-width:1080px;margin:0 auto;padding:10px 20px 0}
+.toprow{display:flex;align-items:center;gap:10px}
+.toprow .spacer{flex:1}
+.iconbtn{background:none;border:1px solid transparent;border-radius:4px;padding:4px 10px;color:var(--ink-soft);font-size:.85rem}
+.iconbtn:hover{border-color:var(--line)}
+.iconbtn[aria-pressed="true"]{border-color:var(--gold);color:var(--gold)}
+.civil{margin:4px 0 2px;font-weight:500;font-size:1.45rem;letter-spacing:.01em}
+.day{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin:0 0 8px}
+.day .en-title{color:var(--ink-soft);font-size:1rem}
+.day .vol{color:var(--vol);font-size:.9rem}
+.day .la-title{color:var(--rubric);font-style:italic;font-size:1rem}
+.daynav{display:flex;gap:6px;align-items:center}
+.daynav button{background:none;border:1px solid var(--line);border-radius:4px;padding:2px 10px;color:var(--ink-soft);font-size:.85rem}
+.daynav button:disabled{opacity:.35;cursor:default}
+.daynav .today{border-color:var(--gold);color:var(--gold)}
+.daynav input[type=date]{background:none;border:1px solid var(--line);border-radius:4px;padding:1px 6px;font-size:.85rem;color:var(--ink-soft)}
+
+/* ---------- ribbon hour bar (the memorable thing) ---------- */
+.ribbons{display:flex;gap:4px;margin-top:6px;overflow-x:auto;scrollbar-width:none;padding:0 2px}
+.ribbons::-webkit-scrollbar{display:none}
+.rib{position:relative;flex:1 0 auto;min-width:74px;background:none;border:none;padding:6px 6px 14px;
+  font-variant-caps:small-caps;font-size:1.02rem;letter-spacing:.03em;color:var(--ink-soft)}
+.rib::after{content:"";position:absolute;left:50%;bottom:0;width:22px;height:8px;transform:translateX(-50%);
+  background:var(--shadow);clip-path:polygon(0 0,100% 0,100% 100%,50% 60%,0 100%);transition:height .25s ease,background .25s ease}
+.rib:hover::after{height:11px}
+.rib[aria-current="true"]{color:var(--vol);font-weight:600}
+.rib[aria-current="true"]::after{height:16px;background:var(--vol)}
+.rib .now{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--gold);margin-left:5px;vertical-align:middle}
+@media (prefers-reduced-motion:reduce){.rib::after{transition:none}}
+
+/* ---------- controls ---------- */
+.controls{max-width:1080px;margin:14px auto 0;padding:0 20px;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:4px;overflow:hidden}
+.seg button{background:none;border:none;padding:3px 14px;font-size:.9rem;color:var(--ink-soft)}
+.seg button+button{border-left:1px solid var(--line)}
+.seg button[aria-pressed="true"]{background:var(--parchment-deep);color:var(--ink)}
+.note{color:var(--ink-soft);font-size:.82rem;font-style:italic}
+
+/* ---------- settings panel ---------- */
+.panel{position:absolute;right:20px;top:44px;background:var(--parchment);border:1px solid var(--line);
+  border-radius:6px;padding:14px 16px;width:min(300px,calc(100vw - 40px));box-shadow:0 6px 24px rgba(40,25,10,.18);display:none;z-index:30}
+.panel.open{display:block}
+.panel h2{font-size:1rem;font-weight:600;margin:0 0 8px;font-variant-caps:small-caps;color:var(--gold)}
+.prow{display:flex;justify-content:space-between;align-items:center;gap:10px;margin:8px 0;font-size:.92rem}
+.prow small{display:block;color:var(--ink-soft);font-size:.78rem}
+.toggle{background:none;border:1px solid var(--line);border-radius:4px;padding:2px 10px;font-size:.85rem}
+.toggle[aria-pressed="true"]{border-color:var(--gold);color:var(--gold)}
+a.focus{margin-left:auto;color:inherit;text-decoration:none;font-size:.85rem;border:1px solid var(--line);border-radius:4px;padding:2px 10px}
+a.focus:hover{border-color:var(--gold);color:var(--gold)}
+.hourhead .solo-sub{display:none}
+body.solo .mast,body.solo .ribwrap,body.solo .controls .note{display:none}
+body.solo .hourhead .solo-sub{display:block}
+.mast-in{position:relative}
+
+/* ---------- office text ---------- */
+main{max-width:1080px;margin:0 auto;padding:18px 20px 60px}
+.hourhead{text-align:center;margin:18px 0 6px}
+.hourhead h2{margin:0;font-variant-caps:small-caps;font-weight:600;font-size:1.7rem;color:var(--rubric);letter-spacing:.02em}
+.hourhead .sub{color:var(--ink-soft);font-style:italic;font-size:.95rem}
+details.frame{margin:10px auto 14px;max-width:760px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+details.frame summary{list-style:none;cursor:pointer;padding:6px 0;color:var(--rubric);font-style:italic;font-size:.95rem;text-align:center}
+details.frame summary::-webkit-details-marker{display:none}
+details.frame summary::before{content:"▸ ";color:var(--gold)}
+details.frame[open] summary::before{content:"▾ "}
+.framebody{display:grid;grid-template-columns:1fr 1fr;gap:28px;padding:4px 0 12px}
+.framebody p{margin:0 0 8px}
+
+.text .pair{display:grid;grid-template-columns:1fr 1fr;gap:34px;margin:0 0 4px;align-items:start}
+.text .pair p{margin:0 0 9px}
+.text ul.verses{list-style:none;margin:0;padding:0}
+.text ul.verses li{margin:0 0 9px;padding-left:1.1em;text-indent:-1.1em}
+.text h3{font-variant-caps:small-caps;font-weight:600;color:var(--gold);font-size:1.05rem;margin:14px 0 4px;text-align:center}
+.text .ant p{text-align:center}
+.text .tag{color:var(--rubric);font-style:italic;margin-right:4px}
+.sym{color:var(--rubric)}
+.rub{color:var(--rubric);font-style:italic}
+.text p.hymn{text-align:left;margin:0 0 12px 1.2em;line-height:1.5}
+.calc{border-bottom:1px dotted var(--gold);cursor:help}
+.text .la:empty{min-height:1px}
+
+body[data-lang="la"] .text .en, body[data-lang="la"] .framebody .en{display:none}
+body[data-lang="en"] .text .la, body[data-lang="en"] .framebody .la{display:none}
+body[data-lang="la"] .text .pair, body[data-lang="en"] .text .pair,
+body[data-lang="la"] .framebody, body[data-lang="en"] .framebody{grid-template-columns:1fr;max-width:720px;margin-left:auto;margin-right:auto}
+
+@media (max-width:700px){
+  :root{--fs:17px}
+  .text .pair,.framebody{grid-template-columns:1fr;gap:2px}
+  body[data-lang="both"] .text .en:not(:empty),body[data-lang="both"] .framebody .en{border-left:2px solid var(--line);padding-left:10px;margin-bottom:8px;color:var(--ink-soft)}
+  body[data-lang="both"] .text .pair{margin-bottom:10px}
+  .civil{font-size:1.2rem}
+  .daynav button{padding:2px 8px;white-space:nowrap}
+  .daynav .lbl{display:none}
+  .note{display:none}
+  .rib{min-width:68px;font-size:.95rem}
+  .controls{gap:8px}
+}
+
+.hournav{max-width:760px;margin:30px auto 0;display:flex;justify-content:space-between;border-top:1px solid var(--line);padding-top:12px}
+.hournav button{background:none;border:none;color:var(--vol);font-variant-caps:small-caps;font-size:1.05rem}
+.hournav button:disabled{visibility:hidden}
+.missing{max-width:620px;margin:50px auto;text-align:center;color:var(--ink-soft)}
+.missing button{background:none;border:1px solid var(--gold);color:var(--gold);border-radius:4px;padding:4px 14px;margin:6px}
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--parchment);
+  padding:6px 16px;border-radius:4px;font-size:.9rem;opacity:0;transition:opacity .2s;pointer-events:none;z-index:50}
+.toast.show{opacity:1}
+
+@media print{
+  .mast,.controls,.hournav,details.frame:not([open]),.toast{display:none!important}
+  body{background:#fff;color:#000;font-size:11pt}
+  .text .pair{break-inside:avoid;gap:18px}
+  .hourhead h2,.sym,.rub,.text .tag{color:#8B1A1A}
+  main{padding:0}
+}
+</style>
+</head>
+<body data-lang="both">
+<header class="mast">
+ <div class="mast-in">
+  <div class="toprow">
+   <div class="daynav">
+    <button id="prevDay" aria-label="Previous day">‹<span class="lbl"> Day</span></button>
+    <button id="todayBtn" class="today">Today</button>
+    <input type="date" id="datePick" aria-label="Choose a date">
+    <button id="nextDay" aria-label="Next day"><span class="lbl">Day </span>›</button>
+   </div>
+   <span class="spacer"></span>
+   <button class="iconbtn" id="settingsBtn" aria-expanded="false" aria-controls="panel">Settings</button>
+  </div>
+  <h1 class="civil" id="civil"></h1>
+  <div class="day"><span class="en-title" id="enTitle"></span><span class="la-title" id="laTitle"></span><span class="vol" id="vol"></span></div>
+  <div class="panel" id="panel" role="dialog" aria-label="Settings">
+   <h2>Reading</h2>
+   <div class="prow"><span>Text size</span><span><button class="toggle" id="fsDown" aria-label="Smaller text">A−</button> <button class="toggle" id="fsUp" aria-label="Larger text">A+</button></span></div>
+   <div class="prow"><span>Theme</span><span class="seg" id="themeSeg"><button data-v="light">Light</button><button data-v="auto">Auto</button><button data-v="dark">Dark</button></span></div>
+   <div class="prow"><span>Keep screen awake<small id="wakeNote">While this page is open</small></span><button class="toggle" id="wakeBtn" aria-pressed="false">Off</button></div>
+   <h2 style="margin-top:14px">Share</h2>
+   <div class="prow"><span>Link to this hour</span><button class="toggle" id="copyBtn">Copy link</button></div>
+  </div>
+ </div>
+</header>
+<div class="ribwrap"><nav class="ribbons" id="ribbons" aria-label="Hours"></nav></div>
+
+<div class="controls">
+ <span class="seg" id="langSeg" role="group" aria-label="Language">
+  <button data-v="la">Latin</button><button data-v="both">Both</button><button data-v="en">English</button>
+ </span>
+ <span class="note">Weekly cycle only. Feasts come later.</span>
+ <a class="focus" id="focusLink" href="#">Open this hour alone</a>
+</div>
+
+<main id="main"></main>
+<div class="toast" id="toast" role="status"></div>
+
+<script src="ordo.js"></script>
+<script>
+const ANTE = [
+  {
+    title: "Before the Hour \u2014 Ante Divinum Officium",
+    latin: "Aperi, Dómine, os meum ad benedicéndum nomen sanctum tuum: munda quoque cor meum ab ómnibus vanis, pervérsis et aliénis cogitatiónibus; intelléctum illúmina, afféctum inflámma, ut digne, atténte ac devóte hoc Officium recitáre váleam, et exaudíri mérear ante conspéctum divínae Majestátis tuae. Per Christum Dóminum nostrum. Amen.\n\nDómine, in unióne illíus divínae intentiónis, qua ipse in terris laudes Deo persolvísti, has tibi Horas persólvo.",
+    english: "Open, O Lord, my mouth to bless Thy holy Name; cleanse also my heart from all vain, evil, and wandering thoughts; enlighten my understanding and kindle my affections; that I may worthily, attentively, and devoutly recite this Office, and so be meet to be heard before the presence of Thy divine Majesty. Through Christ our Lord. Amen.\n\nO Lord, in union with that divine intention wherewith Thou, whilst here on earth, didst render praises unto God, I offer these Hours to Thee."
+  },
+  {
+    title: "After the Hour \u2014 Post Divinum Officium",
+    latin: "Sacrosánctae et indivíduae Trinitáti, crucifíxi Dómini nostri Jesu Christi humanitáti, beatíssimae et gloriosíssimae sempérque Vírginis Maríae fecúndae integritáti, et ómnium Sanctórum universitáti, sit sempitérna laus, honor, virtus et glória ab omni creatúra, nobísque remíssio ómnium peccatórum, per infiníta saecula saeculórum. Amen.\n\nV. Beáta víscera Maríae Vírginis, quae portavérunt aetérni Patris Fílium.\nR. Et beáta úbera, quae lactavérunt Christum Dóminum.",
+    english: "To the most holy and undivided Trinity, to the Humanity of our crucified Lord Jesus Christ, to the fruitful virginity of the most blessed and glorious Mary, ever Virgin, and to the whole company of the Saints, be everlasting praise, honour, and glory, by all creatures; and to us be granted the remission of all our sins, world without end. Amen.\n\nV. Blessed is the womb of the Virgin Mary, which bore the Son of the eternal Father.\nR. And blessed are the breasts which nourished Christ the Lord."
+  }
+];
+let INDEX = {}; const CACHE = {};
+async function loadDay(date){
+  const r = lookup(date, date.getFullYear());
+  const e = r && INDEX[r.en];
+  if (!e) return {missing: true, en: r ? r.en : ''};
+  if (!CACHE[e.file]) CACHE[e.file] = await (await fetch('days/' + e.file)).json();
+  return CACHE[e.file];
+}
+const HOURS = [
+ {k:'matins',  en:'Matins',  la:'Ad Matutinum', from:0},
+ {k:'lauds',   en:'Lauds',   la:'Ad Laudes',    from:5},
+ {k:'prime',   en:'Prime',   la:'Ad Primam',    from:7},
+ {k:'terce',   en:'Terce',   la:'Ad Tertiam',   from:9},
+ {k:'sext',    en:'Sext',    la:'Ad Sextam',    from:12},
+ {k:'none',    en:'None',    la:'Ad Nonam',     from:15},
+ {k:'vespers', en:'Vespers', la:'Ad Vesperas',  from:17},
+ {k:'compline',en:'Compline',la:'Ad Completorium',from:20}];
+const $ = s => document.querySelector(s);
+const store = {get(k,d){try{const v=localStorage.getItem('rdr.'+k);return v===null?d:JSON.parse(v)}catch(e){return d}},
+               set(k,v){try{localStorage.setItem('rdr.'+k,JSON.stringify(v))}catch(e){}}};
+
+/* ---------- liturgical date -> book key (Pars Autumnalis rule) ---------- */
+const MONTHS=['January','February','March','April','May','June','July','August','September','October','November','December'];
+const FERIA=['Dominica','Feria II','Feria III','Feria IV','Feria V','Feria VI','Sabbato'];
+function iso(d){return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0')}
+function parseISO(s){const [y,m,d]=s.split('-').map(Number);return new Date(y,m-1,d)}
+function addDays(d,n){const x=new Date(d);x.setDate(x.getDate()+n);return x}
+function firstSunday(y,m){ // Sunday nearest the Kalends: Mon–Wed -> Sunday before; Thu–Sat -> Sunday after
+  const k=new Date(y,m,1), w=k.getDay(); return w===0?k:(w<=3?addDays(k,-w):addDays(k,7-w)); }
+function bookKey(d){
+  const y=d.getFullYear();
+  for(let m=10;m>=7;m--){ const fs=firstSunday(y,m);
+    if(d>=fs){ const wk=Math.floor((d-fs)/864e5/7)+1; return MONTHS[m]+', Hebdomada '+wk+' — '+FERIA[d.getDay()]; } }
+  return null;
+}
+
+/* ---------- Martyrology: perpetual date + ecclesiastical moon ---------- */
+function epact(y){const G=y%19+1,C=Math.floor(y/100)+1,S=Math.floor(3*C/4),L=Math.floor((8*C+5)/25);return ((11*G-S+L-3)%30+30)%30}
+const DOUBLE=new Set(['1-5','3-5','5-3','7-1','8-29','10-27']); // month(0-based)-day carrying xxv & xxiv together
+const labelCache={};
+function labelsFor(y){ if(labelCache[y])return labelCache[y]; const L={}; let cur=0, d=new Date(y,0,1);
+  while(d.getFullYear()===y){ const key=d.getMonth()+'-'+d.getDate(); L[key]=cur; cur=((cur-(DOUBLE.has(key)?2:1))%30+30)%30; d=addDays(d,1);} return labelCache[y]=L; }
+function moonAge(date){ for(let b=0;b<31;b++){ const x=addDays(date,-b), key=x.getMonth()+'-'+x.getDate(), l=labelsFor(x.getFullYear())[key], e=epact(x.getFullYear());
+  if(l===e || (DOUBLE.has(key) && ((l-1)%30+30)%30===e)) return b+1; } return null; }
+function ord(n){const s=['th','st','nd','rd'],v=n%100;return n+(s[(v-20)%10]||s[v]||s[0])}
+const LUNA=['','prima','secúnda','tértia','quarta','quinta','sexta','séptima','octáva','nona','décima','undécima','duodécima','tértia décima','quarta décima','quinta décima','sexta décima','décima séptima','duodevicésima','undevicésima','vicésima','vicésima prima','vicésima secúnda','vicésima tértia','vicésima quarta','vicésima quinta','vicésima sexta','vicésima séptima','vicésima octáva','vicésima nona','tricésima'];
+function fillMartyrology(html,date){
+  const t=addDays(date,1), age=moonAge(t), tip=`Calculated for ${MONTHS[t.getMonth()]} ${t.getDate()}, ${t.getFullYear()}`;
+  html=html.replace(/Martyrologium (January|February|March|April|May|June|July|August|September|October|November|December) \d+(st|nd|rd|th) \d{4}, the \d+(st|nd|rd|th) day of the Moon/,
+    `Martyrologium <span class="calc" title="${tip}">${MONTHS[t.getMonth()]} ${ord(t.getDate())} ${t.getFullYear()}, the ${ord(age)} day of the Moon</span>`);
+  html=html.replace(/Luna ((?:[a-zéíóúáæ]+ ?){1,2}?)\. Anno Dómini \d{4}/,
+    `Luna <span class="calc" title="${tip}">${LUNA[age]}. Anno Dómini ${t.getFullYear()}</span>`);
+  return html;
+}
+
+/* ---------- rubrics & red symbols ---------- */
+const RUBRICS=[/Pater Noster dicitur secreto usque ad Et ne nos indúcas in tentatiónem:/g,/Our Father is said silently until And lead us not into temptation:\.?/g,
+ /\(Fit reverentia:\)/g,/\(Bow head\)/g,/\b(Absolutio|Benedictio|De Officio Capituli|Martyrologium|Lectio brevis|Lectio \d|Reading \d|Responsorium \d|Responsory \d|Oratio|Prayer)\b/g];
+function decorate(html){
+  return html.replace(/>([^<]+)</g,(m,txt)=>{
+    let t=txt;
+    RUBRICS.forEach(r=>{t=t.replace(r,x=>'\u0001'+x+'\u0002')});
+    t=t.replace(/[℣℟✠†‡*]|\+︎/g,s=>'\u0003'+s+'\u0004');
+    t=t.replace(/\u0001/g,'<span class="rub">').replace(/\u0002/g,'</span>').replace(/\u0003/g,'<span class="sym">').replace(/\u0004/g,'</span>');
+    return '>'+t+'<';
+  });
+}
+
+/* ---------- state & rendering ---------- */
+let state={date:null,hour:null};
+function dayFor(date){const k=bookKey(date);return DAYS.find(d=>d.key===k)||null}
+function currentHourKey(){const h=new Date().getHours();let k='matins';HOURS.forEach(x=>{if(h>=x.from)k=x.k});return k}
+function esc(s){return s.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]))}
+function para(s){return s.split(/\n\n/).map(p=>'<p>'+esc(p).replace(/\n/g,'<br>')+'</p>').join('')}
+function frame(item,open){
+  return `<details class="frame"${open?' open':''}><summary>${esc(item.title)}</summary><div class="framebody"><div class="la">${decorate(para(item.latin))}</div><div class="en">${decorate(para(item.english))}</div></div></details>`;
+}
+function renderRibbons(){
+  const now=(iso(state.date)===iso(new Date()))?currentHourKey():null;
+  const R=$('#ribbons'); R.innerHTML=HOURS.map(h=>`<button class="rib" data-h="${h.k}" aria-current="${h.k===state.hour}" title="${h.la}">${h.en}${h.k===now?'<span class="now" title="Now"></span>':''}</button>`).join('');
+  const a=R.querySelector('[aria-current="true"]'); if(a) a.scrollIntoView({block:'nearest',inline:'center'});
+}
+async function render(push=true){
+  const d=state.date; let day=await loadDay(d); const missingTitle=day.en; if(day.missing) day=null;
+  $('#datePick').value=iso(d);
+  $('#civil').textContent=d.toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric',year:'numeric'}); $('#vol').textContent=day?'Pars '+day.volume:'';
+  renderRibbons();
+  if(!day){
+    $('#enTitle').textContent=missingTitle||'Not available'; $('#laTitle').textContent='';
+    $('#main').innerHTML=`<div class="missing"><p>This day isn't in the books yet. Use the PDF for now.</p></div>`;
+  } else {
+    $('#enTitle').textContent=day.en; $('#laTitle').textContent=day.la;
+    const H=HOURS.find(h=>h.k===state.hour), i=HOURS.indexOf(H);
+    let body=day.hours[H.k]; if(H.k==='prime') body=fillMartyrology(body,d);
+    $('#main').innerHTML=`<div class="hourhead"><h2>${H.la} · ${H.en}</h2><div class="sub solo-sub">${d.toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric',year:'numeric'})} · ${esc(day.en)}</div></div>`+
+      frame(ANTE[0],store.get('anteOpen',false))+`<div class="text">${decorate(body)}</div>`+frame(ANTE[1],false)+
+      `<nav class="hournav"><button data-step="-1" ${i===0?'disabled':''}>‹ ${i>0?HOURS[i-1].en:''}</button><button data-step="1" ${i===7?'disabled':''}>${i<7?HOURS[i+1].en:''} ›</button></nav>`;
+    document.title=`${H.en} — ${day.en}`;
+  }
+  document.body.classList.toggle('solo',!!state.solo);
+  const base='#'+iso(d)+'/'+state.hour, hash=base+(state.solo?'/solo':''); if(push&&location.hash!==hash) history.replaceState(null,'',hash);
+  const fl=$('#focusLink'); fl.href=state.solo?base:base+'/solo'; fl.textContent=state.solo?'‹ Full reader':'Open this hour alone';
+  store.set('last',{date:iso(d),hour:state.hour});
+}
+function go(date,hour,scroll=true){state.date=date;state.hour=hour||state.hour;render();if(scroll)window.scrollTo({top:0});}
+
+/* ---------- events ---------- */
+$('#ribbons').addEventListener('click',e=>{const b=e.target.closest('.rib');if(b)go(state.date,b.dataset.h)});
+$('#main').addEventListener('click',e=>{
+  const s=e.target.closest('[data-step]'); if(s){const i=HOURS.findIndex(h=>h.k===state.hour)+Number(s.dataset.step);if(HOURS[i])go(state.date,HOURS[i].k);}
+  const g=e.target.closest('[data-go]'); if(g)go(parseISO(g.dataset.go),state.hour);
+});
+$('#main').addEventListener('toggle',e=>{if(e.target.matches('details.frame')&&e.target===$('#main details.frame'))store.set('anteOpen',e.target.open)},true);
+$('#todayBtn').onclick=()=>go(new Date(new Date().toDateString()),currentHourKey());
+$('#datePick').onchange=e=>{if(e.target.value)go(parseISO(e.target.value),state.hour)};
+function stepDay(n){go(addDays(state.date,n),state.hour)}
+$('#prevDay').onclick=()=>stepDay(-1); $('#nextDay').onclick=()=>stepDay(1);
+document.addEventListener('keydown',e=>{ if(e.target.matches('input'))return;
+  const i=HOURS.findIndex(h=>h.k===state.hour);
+  if(e.key==='ArrowRight'&&HOURS[i+1])go(state.date,HOURS[i+1].k); if(e.key==='ArrowLeft'&&HOURS[i-1])go(state.date,HOURS[i-1].k);
+  if(e.key==='Escape')closePanel(); });
+
+// language
+function setLang(v){document.body.dataset.lang=v;store.set('lang',v);document.querySelectorAll('#langSeg button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.v===v))}
+$('#langSeg').onclick=e=>{const b=e.target.closest('button');if(b)setLang(b.dataset.v)};
+// size
+function setFs(px){px=Math.max(14,Math.min(28,px));document.documentElement.style.setProperty('--fs',px+'px');store.set('fs',px)}
+$('#fsUp').onclick=()=>setFs(store.get('fs',19)+1); $('#fsDown').onclick=()=>setFs(store.get('fs',19)-1);
+// theme
+function setTheme(v){if(v==='auto')document.documentElement.removeAttribute('data-theme');else document.documentElement.dataset.theme=v;store.set('theme',v);
+  document.querySelectorAll('#themeSeg button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.v===v))}
+$('#themeSeg').onclick=e=>{const b=e.target.closest('button');if(b)setTheme(b.dataset.v)};
+// panel
+function closePanel(){$('#panel').classList.remove('open');$('#settingsBtn').setAttribute('aria-expanded','false')}
+$('#settingsBtn').onclick=e=>{e.stopPropagation();const o=$('#panel').classList.toggle('open');$('#settingsBtn').setAttribute('aria-expanded',o)};
+document.addEventListener('click',e=>{if(!e.target.closest('#panel')&&e.target!==$('#settingsBtn'))closePanel()});
+// wake lock
+let lock=null;
+async function setWake(on){
+  const b=$('#wakeBtn');
+  if(on){ if(!('wakeLock' in navigator)){$('#wakeNote').textContent='Not supported in this browser';return}
+    try{lock=await navigator.wakeLock.request('screen');b.setAttribute('aria-pressed','true');b.textContent='On';store.set('wake',true);
+      lock.addEventListener('release',()=>{if(document.visibilityState==='visible'&&store.get('wake',false))setWake(true)});}
+    catch(err){$('#wakeNote').textContent='Blocked here — works once the page is on your site';}
+  } else { store.set('wake',false); if(lock){lock.release();lock=null} b.setAttribute('aria-pressed','false');b.textContent='Off'; }
+}
+$('#wakeBtn').onclick=()=>setWake($('#wakeBtn').getAttribute('aria-pressed')!=='true');
+document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible'&&store.get('wake',false))setWake(true)});
+// share
+function toast(m){const t=$('#toast');t.textContent=m;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),1800)}
+$('#copyBtn').onclick=async()=>{try{await navigator.clipboard.writeText(location.href);toast('Link copied')}catch(e){prompt('Copy this link:',location.href)}};
+window.addEventListener('hashchange',()=>{const m=location.hash.match(/^#(\d{4}-\d\d-\d\d)\/(\w+)(\/solo)?/);if(m){state.solo=!!m[3];go(parseISO(m[1]),m[2])}});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&state.solo&&!document.querySelector('.panel.open')){state.solo=false;render()}});
+
+/* ---------- start ---------- */
+setLang(store.get('lang','both')); setFs(store.get('fs',19)); setTheme(store.get('theme','auto'));
+if(store.get('wake',false)) setWake(true);
+(function(){const m=location.hash.match(/^#(\d{4}-\d\d-\d\d)\/(\w+)(\/solo)?/);
+  if(m&&HOURS.some(h=>h.k===m[2])){state={date:parseISO(m[1]),hour:m[2],solo:!!m[3]};}
+  else{const today=new Date(new Date().toDateString());state={date:today,hour:currentHourKey()};
+}
+  fetch('days/index.json').then(r=>r.json()).then(j=>{INDEX=j;render(false);});})();
+</script>
+</body>
+</html>
+
